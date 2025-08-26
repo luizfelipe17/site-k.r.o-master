@@ -1,0 +1,13 @@
+html {
+  scroll-behavior: smooth;
+  background-color: #2A373F;
+  
+}
+
+* {
+
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+}

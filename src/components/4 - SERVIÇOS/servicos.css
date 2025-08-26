@@ -1,0 +1,100 @@
+.servicos {
+
+  background-color: #acacac;
+  display: grid;
+  place-items: center;
+  gap: 2%;
+  grid-template-areas:
+    'texto1 texto1 imagem1 imagem1'
+    'button button button button'
+    'imagem2 imagem2 texto2 texto2'
+    'texto3 texto3 imagem3 imagem3';
+
+}
+
+.servicos ul {
+
+  list-style-type: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(233, 233, 233);
+  align-items: start;
+
+}
+
+.servicos h1 {
+
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #ffffff;
+  font-size: 400%;
+
+}
+
+#simplesLucro {
+
+  grid-area: texto1;
+  text-align: start;
+  align-items: center;
+  margin: 10%;
+
+}
+
+#buttonSimplesLucro{
+
+  grid-area: button;
+
+}
+
+#buttonAbrirEmpresa {
+
+  color: #fff;
+  background-color: transparent;
+  cursor: pointer;
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 10px 20px;
+
+
+}
+
+#simplesLucroimg {
+
+  grid-area: imagem1;
+  width: 90%;
+
+}
+
+
+#servicoSolucoes {
+
+  grid-area: texto2;
+  justify-content: center;
+  text-align: start;
+  align-items: center;
+  margin: 10%;
+
+}
+
+#servicosSolucoesIMG {
+
+  grid-area: imagem2;
+  width: 55%;
+
+}
+
+#servicoPrevidenciario {
+
+  grid-area: texto3;
+  justify-content: center;
+  text-align: start;
+  margin: 10%;
+
+
+}
+
+#servicoPrevidenciarioImg {
+
+  grid-area: imagem3;
+  width: 90%;
+
+}

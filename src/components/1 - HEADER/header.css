@@ -1,0 +1,45 @@
+.head {
+
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: #2A373F;
+  box-shadow: 1px 3px 13px;
+  z-index: 1000;
+
+}
+
+.head img {
+
+  height: 60px;
+}
+
+.navButtons a {
+
+  display: inline-block;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 12px;
+  font-size: 100%;
+  color: #fff;
+  text-decoration: none;
+  transition: transform 0.5s;
+
+
+}
+
+#contato1 {
+
+  border: 1px solid white;
+  padding: 10px 20px;
+
+}
+
+.head a:hover {
+
+  border: 0;
+  transform: scale(1.2);
+
+}

@@ -1,0 +1,27 @@
+.buttonWhatsFixo {
+
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    transition: 0.3s;
+
+}
+
+.buttonWhatsFixo:hover {
+
+    transform: scale(1.1);
+
+}
+
+.buttonWhatsFixo a {
+
+    align-items: center;
+    text-align: center;
+    font-size: 250%;
+    text-decoration: none;
+    color: rgb(0, 255, 0);
+
+}

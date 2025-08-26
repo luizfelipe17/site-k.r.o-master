@@ -1,0 +1,26 @@
+.imgTelaInicial {
+
+  width: 100%;
+  filter: blur(8px);
+
+}
+
+@media screen and (max-width:200px) {
+
+  .imgTelaInicial {
+
+    width: 70%;
+
+  }
+
+}
+
+.logoTelaInicial {
+
+  max-width: 60%;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+
+}

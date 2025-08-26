@@ -1,0 +1,67 @@
+.containerObjetivos {
+
+  display: flex;
+  background-color: #fff;
+
+}
+
+@media screen and (max-width:900px) {
+
+  .containerObjetivos {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+  }
+
+}
+
+.containerObjetivos img {
+
+  margin-bottom: 3%;
+  width: 40%;
+
+}
+
+.containerObjetivos ul {
+
+  /* justify-content: 'center'; */
+  /* align-content: center; */
+  list-style-type: none;
+  /* text-align: start; */
+
+}
+
+.containerObjetivos li{
+
+  margin-left: 2%;
+
+}
+
+#buttonEntrarEmContato{
+
+  flex-direction: column;
+
+}
+
+#texto {
+
+  display: flex;
+
+}
+
+.boxObjetivos {
+
+  background-color: #ffffff;
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.2);
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 6%;
+  margin-bottom: 8%;
+  width: 30%;
+  padding: 2%;
+  text-align: center;
+
+}

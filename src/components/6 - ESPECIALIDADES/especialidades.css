@@ -1,0 +1,75 @@
+.containerEspecialidades {
+
+  background-color: #2A373F;
+  display: flex;
+  flex-direction: column;
+  gap: 1%;
+  align-items: center;
+  padding: 50px;
+
+
+}
+
+
+.containerCards {
+  display: flex;
+  flex-direction: row;
+  padding: 3%;
+}
+
+.tituloEspecialidas {
+
+  flex-direction: c;
+
+}
+
+.boxEspecialidades {
+
+  position: relative;
+  display: inline-block;
+  width: 24%;
+  height: 20%;
+  margin: 0.5%;
+  transition: transform 0.9s;
+
+}
+
+#imgEspecialidades {
+
+  width: 100%;
+  display: block;
+
+}
+
+.textoHouver {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 1.2s ease;
+  font-size: 30px;
+  text-align: center;
+  padding: 3%;
+
+}
+
+.boxEspecialidades:hover .textoHouver {
+
+  opacity: 1.1;
+
+
+}
+
+.boxEspecialidades:hover {
+
+  transform: scale(1.03);
+
+}
