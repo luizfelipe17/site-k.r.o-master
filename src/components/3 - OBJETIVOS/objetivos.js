@@ -21,24 +21,12 @@ function objetivos() {
                 <img src={servico} />
                 <h1>Por que contratar nossos serviços?</h1><br></br>
                 <ul>
-                    <div id="texto">
-                        <FaAnglesRight size={13} />
-                        <li>Equipe especializada e preparada pra te ajudar</li>
-                    </div>
-
-                    <div id="texto">
-                        <FaAnglesRight size={13} />
-                        <li> Experiência e dedicação</li>
-                    </div>
-
-                    <div id="texto">
-                        <FaAnglesRight size={13} />
-                        <li> Suporte contábil de qualidade</li>
-                    </div>
+          
+                    <li>Equipe especializada e preparada pra te ajudar</li>
+                    <li> Experiência e dedicação</li>
+                    <li> Suporte contábil de qualidade</li>
                 </ul>
             </div>
-            <div id='buttonEntrarEmContato'><a ENTRAR EM CONTATO>ENTRAR EM CONTATO</a></div>
-
         </div>
     );
 };

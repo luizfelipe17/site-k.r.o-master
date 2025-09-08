@@ -5,12 +5,17 @@ import imgTelaInicial from "../../img/fundoTelaInicial.jpg"
 function home() {
     return (
 
-        <div className='containerHome'>
+        <section className='containerHome' style={{
+            backgroundImage: `url(${imgTelaInicial})`,    
+            backgroundColor: "rgba(0,0,0,0.65)", 
+            backgroundBlendMode: "multiply",
+        }}>
             <div id="home" className="home">
-                <img className="imgTelaInicial" src={imgTelaInicial} />
                 <img className="logoTelaInicial" src={logo} />
+                <a id="button">ENTRAR EM CONTATO</a>
+                <a id="button">SERVIÇOS</a>
             </div>
-        </div>
+        </section>
     );
 };
 

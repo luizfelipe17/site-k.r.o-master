@@ -7,7 +7,7 @@ function header() {
             <img src={logo} />
 
             <div className="navButtons">
-                <a id='home1' href='#home'> HOME </a>
+                <a id='home1' href='#home'>HOME</a>
                 <a id='sobreNos1' href='#sobreNos'>SOBRE NÓS</a>
                 <a id='contato1' href='#contato'>CONTATO</a>
             </div>

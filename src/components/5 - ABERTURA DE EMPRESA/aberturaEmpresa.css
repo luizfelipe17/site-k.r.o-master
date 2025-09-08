@@ -1,6 +1,8 @@
 .aberturaEmpresas{
 
   background-color: #fff;
+  padding: 10px;
+  
 
 }
 
@@ -18,7 +20,7 @@
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
-  gap: 3%;
+  gap: 50px;
   margin-bottom: 10%;
 
 }

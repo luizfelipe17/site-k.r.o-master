@@ -11,11 +11,11 @@ function footer() {
                     <address>
                         K.R.O Consultoria Empresarial Previdenciaria Tributaria LTDA: 11.020.769/0001-98<br></br><br></br>
 
-                        <h3><FiMapPin /> Unidade Betim</h3>
+                        <h4><FiMapPin /> Unidade Betim</h4>
                         R. Inconfidência, 510 - Centro, Betim<br></br>
                         MG, 32600-100<br></br><br></br>
 
-                        <h3><FiMapPin /> Unidade Contagem - "Somente Serviços Previdenciários"</h3>
+                        <h4><FiMapPin /> Unidade Contagem - "Somente Serviços Previdenciários"</h4>
                         Rua Moassy, 48 - Novo Eldorado, Contagem<br></br>
                         MG, 32341-170<br></br>
 
@@ -28,13 +28,25 @@ function footer() {
                     <a href='https://wa.me/+5531988997860' target='_blank'><FaWhatsapp /> WHATSAPP: +55 (31) 98899-7860</a><br></br>
                     <a><FiPhone /> TELEFONE: (31) 3594-1294</a><br></br>
                     <br></br>
+                    <FaWhatsapp size={35} /><FiMail size={35} /><FiPhone size={35} />
                 </div>
 
                 <div id='informacoesFooter' className='boxFooter'>
                     <h3>INFORMAÇÕES</h3><br></br>
-                    <p><FaRegClock /> ATENDIMENTO: SEGUNDA A SEXTA,<br></br>DAS 09h00 ÀS 12h00 E DAS 14h00 ÀS 18h00.</p>
+                    <p>Horario de Atendimento<br></br><br></br>SEGUNDA A SEXTA:<br></br><FaRegClock /> 09h00 ÀS 12h00<br></br><FaRegClock /> 14h00 ÀS 18h00.</p>
 
                 </div>
+
+                <div id='informacoesFooter' className='boxFooter'>
+                    <h3>NAVEGAÇÃO</h3><br></br>
+                    <ul>
+                        <li><a href=''>Sobre nós</a></li>
+                        <li><a href=''>Serviços</a></li>
+                        <li><a href=''>Documentos</a></li>
+                        <li><a href=''>Contato</a></li>
+                    </ul>
+                </div>
+
             </div>
 
             <div id='copyright'>Copyright © 2025 - K.R.O Consultoria Empresaria Previdenciária Tributaria LTDA - Todos os direitos reservados.</div>

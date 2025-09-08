@@ -11,8 +11,9 @@ function especialidades() {
             <div className='tituloEspecialidas'><h1>Especialidades</h1></div>
 
             <div className="containerCards">
-                <div className='boxEspecialidades'>
-                    <img id='imgEspecialidades' src={especialidadesFinanceiro}></img>
+                <div className='boxEspecialidades' style={{
+            backgroundImage: `url(${especialidadesFinanceiro})`}}>
+                    {/* <img id='imgEspecialidades' src={especialidadesFinanceiro}></img> */}
                     <div className='textoHouver'>Execução impecável e sem erros das operações Financeiras da sua Empresa.</div>
                 </div>
                 <div className='boxEspecialidades'>

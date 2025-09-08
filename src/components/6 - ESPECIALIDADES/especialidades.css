@@ -1,11 +1,10 @@
 .containerEspecialidades {
 
-  background-color: #2A373F;
+  background-color: #181818;
   display: flex;
   flex-direction: column;
   gap: 1%;
   align-items: center;
-  padding: 50px;
 
 
 }
@@ -15,16 +14,20 @@
   display: flex;
   flex-direction: row;
   padding: 3%;
+  
 }
 
 .tituloEspecialidas {
 
-  flex-direction: c;
+  margin: 5%;
+  color: #fff;
+  font-size: x-large;
 
 }
 
 .boxEspecialidades {
 
+  min-height: 50vh;
   position: relative;
   display: inline-block;
   width: 24%;
