@@ -4,11 +4,6 @@
 
 }
 
-.boxFooter{
-
-    width: 280px;
-
-}
 .boxFooter h3 {
 
     padding: 5px;
@@ -27,6 +22,7 @@
     text-align: start;
     gap: 25px;
     padding: 15px;
+    margin-right: 30px;
 
 }
 
@@ -38,6 +34,18 @@
 
 }
 
+#navegacaoFooter li::before{
+
+    content: ">";
+    color: black;
+
+}
+
+#iconsContato{
+
+    margin: 0 40px;
+    
+}
 
 
 #copyright {

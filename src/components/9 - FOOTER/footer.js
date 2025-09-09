@@ -28,7 +28,7 @@ function footer() {
                     <a href='https://wa.me/+5531988997860' target='_blank'><FaWhatsapp /> WHATSAPP: +55 (31) 98899-7860</a><br></br>
                     <a><FiPhone /> TELEFONE: (31) 3594-1294</a><br></br>
                     <br></br>
-                    <FaWhatsapp size={35} /><FiMail size={35} /><FiPhone size={35} />
+                    <span><FaWhatsapp size={35} /></span><span id='iconsContato'><FiMail size={35} /></span><span><FiPhone size={35}/></span>
                 </div>
 
                 <div id='informacoesFooter' className='boxFooter'>
@@ -37,13 +37,14 @@ function footer() {
 
                 </div>
 
-                <div id='informacoesFooter' className='boxFooter'>
+                <div id='navegacaoFooter' className='boxFooter'>
                     <h3>NAVEGAÇÃO</h3><br></br>
                     <ul>
-                        <li><a href=''>Sobre nós</a></li>
-                        <li><a href=''>Serviços</a></li>
-                        <li><a href=''>Documentos</a></li>
-                        <li><a href=''>Contato</a></li>
+                        <li><a href=''> Sobre nós</a></li>
+                        <li><a href=''> Serviços</a></li>
+                        <li><a href=''> Especialidades</a></li>
+                        <li><a href=''> Documentos</a></li>
+                        <li><a href=''> Contato</a></li>
                     </ul>
                 </div>
 
