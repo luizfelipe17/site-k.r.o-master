@@ -15,6 +15,16 @@
     text-align: center;
 
   }
+  
+  .boxObjetivos {
+    width: 80%;
+  }
+
+}
+
+.containerObjetivos h1{
+
+  margin-bottom: 12px;
 
 }
 
@@ -27,9 +37,10 @@
 
 .containerObjetivos ul {
 
-  justify-content: 'center';
+  justify-content: center;
   align-content: center;
   text-align: start;
+  
 
 }
 
@@ -44,14 +55,48 @@
 .boxObjetivos {
 
   background-color: #ffffff;
-  
   box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.2);
   margin-right: 5%;
   margin-left: 5%;
   margin-top: 6%;
-  margin-bottom: 8%;
+  margin-bottom: 4%;
   width: 30%;
   padding: 2%;
   text-align: center;
+
+}
+
+.boxObjetivos li::before{
+
+    content: "➤";
+    color: black;
+
+}
+
+.buttonServicos{
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: #fff;
+
+}
+
+.buttonServicos a{
+
+  padding: 13px 30px;
+  border: 0.1px solid rgb(156, 156, 156);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+
+}
+
+.buttonServicos a:hover{
+
+  border: 1px solid white;
+  box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.2);
 
 }

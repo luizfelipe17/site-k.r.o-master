@@ -54,7 +54,7 @@
 }
 
 
-#buttonAbrirEmpresa {
+#buttonSimplesLucro {
 
   display: flex;
   color: #000000;
@@ -63,10 +63,18 @@
   text-align: center;
   align-items: center;
   justify-content: center;
-  background-color: transparent;
-  border: 1px solid rgb(0, 0, 0);
-  padding: 10px 20px;
 
+
+}
+
+#buttonSimplesLucro a{
+
+  padding: 13px 20px;
+  border: 1px solid rgb(156, 156, 156);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
 
 }
 

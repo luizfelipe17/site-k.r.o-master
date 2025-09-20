@@ -6,8 +6,7 @@ import { FaAnglesRight } from "react-icons/fa6"
 
 function servicos() {
     return (
-        <section className='servicos'>
-
+        <section className='servicos' id='servicos'>
             <div className='containerSimplesLucro'>
                 <div id="simplesLucro">
                     <h1>Serviços e Soluções - Simples Nacional / Lucro Presumido<br></br><br></br></h1>
@@ -26,7 +25,7 @@ function servicos() {
             </div>
 
             <div id="buttonSimplesLucro">
-                <a id="buttonAbrirEmpresa">ABRIR EMPRESA</a>
+                <a>ABRIR EMPRESA</a>
             </div>
 
             <div className='containerServicoSolucoes'>

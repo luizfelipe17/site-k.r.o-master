@@ -12,8 +12,6 @@ function home() {
         }}>
             <div id="home" className="home">
                 <img className="logoTelaInicial" src={logo} />
-                <a id="button">ENTRAR EM CONTATO</a>
-                <a id="button">SERVIÇOS</a>
             </div>
         </section>
     );

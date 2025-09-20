@@ -4,7 +4,7 @@ import contador from "../../img/CONTADOR.png"
 
 function sobreNos() {
     return (
-        <section id='sobreNos' className='sobreNos' style={{ backgroundImage: `url(${fundoSobreNos})` }}>
+        <section id='sobreNos' className='sobreNos'>
             <div className='tituloSobreNos'>
                 <h1>SOBRE NóS</h1>
             </div>
