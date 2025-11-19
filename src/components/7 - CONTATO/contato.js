@@ -3,7 +3,7 @@ import whats from "../../img/WHATS.png"
 import telefone from "../../img/TELEFONE.png"
 import email from "../../img/EMAIL.png"
 
-function contato() {
+function Contato() {
     return (
         <div id='contato' className="contato">
             <h1>Contatos</h1>
@@ -23,4 +23,4 @@ function contato() {
     );
 };
 
-export default contato;
+export default Contato;

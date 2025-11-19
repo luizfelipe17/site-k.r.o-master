@@ -2,7 +2,7 @@ import './sobreNos.css'
 import fundoSobreNos from "../../img/fundoSobreNos.png"
 import contador from "../../img/CONTADOR.png"
 
-function sobreNos() {
+function SobreNos() {
     return (
         <section id='sobreNos' className='sobreNos'>
             <div className='tituloSobreNos'>
@@ -18,4 +18,4 @@ function sobreNos() {
         </section>
     );
 };
-export default sobreNos;
+export default SobreNos;

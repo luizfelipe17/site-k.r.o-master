@@ -2,7 +2,7 @@ import './footer.css'
 import { FaWhatsapp, FaRegClock } from "react-icons/fa";
 import { FiMapPin, FiMail, FiPhone } from "react-icons/fi";
 
-function footer() {
+function Footer() {
     return (
         <footer className='footer'>
             <br></br>
@@ -57,4 +57,4 @@ function footer() {
     );
 };
 
-export default footer;
+export default Footer;

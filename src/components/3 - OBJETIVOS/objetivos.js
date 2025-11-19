@@ -2,9 +2,8 @@ import './objetivos.css'
 import missao from "../../img/missao.png"
 import servico from "../../img/servico.png"
 import visao from "../../img/visao.png"
-import { FaAnglesRight } from "react-icons/fa6"
 
-function objetivos() {
+function Objetivos() {
     return (
         <>
             <div className='containerObjetivos'>
@@ -37,4 +36,4 @@ function objetivos() {
     );
 };
 
-export default objetivos;
+export default Objetivos;

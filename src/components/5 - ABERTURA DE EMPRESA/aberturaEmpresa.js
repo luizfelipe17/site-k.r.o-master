@@ -2,7 +2,7 @@ import './aberturaEmpresa.css'
 import { FaIdCard, FaAddressCard, FaHome, FaHeart, FaFileInvoice, FaUsers, FaFileAlt } from "react-icons/fa";
 
 
-function aberturaEmpresa() {
+function AberturaEmpresa() {
     return (
         <div className='aberturaEmpresas'>
             <div>
@@ -38,4 +38,4 @@ function aberturaEmpresa() {
     );
 };
 
-export default aberturaEmpresa;
+export default AberturaEmpresa;

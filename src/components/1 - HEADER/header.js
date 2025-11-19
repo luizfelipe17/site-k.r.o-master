@@ -1,7 +1,7 @@
 import './header.css'
 import logo from "../../img/logoSiteKRO.png"
 
-function header() {
+function Header() {
     return (
         <div className="head">
             <img src={logo} />
@@ -15,4 +15,4 @@ function header() {
     );
 }
 
-export default header;
+export default Header;

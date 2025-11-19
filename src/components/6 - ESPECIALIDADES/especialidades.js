@@ -3,36 +3,66 @@ import baixoImposto from "../../img/BaixoImposto.jpg"
 import estruturaContabil from "../../img/EstruturaContabil.jpg"
 import parceriaEmpresarial from "../../img/ParceriaEmpresarial.jpg"
 import especialidadesFinanceiro from "../../img/EspecialidadesFinanceiro.jpg"
+import M from 'materialize-css'
 
-function especialidades() {
+function Especialidades() {
     return (
         <div className='containerEspecialidades'>
 
-            <div className='tituloEspecialidas'><h1>Especialidades</h1></div>
-
-            <div className="containerCards">
-                <div className='boxEspecialidades' style={{
-            backgroundImage: `url(${especialidadesFinanceiro})`}}>
-                    {/* <img id='imgEspecialidades' src={especialidadesFinanceiro}></img> */}
-                    <div className='textoHouver'>Execução impecável e sem erros das operações Financeiras da sua Empresa.</div>
+            {/* <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src={baixoImposto}>
                 </div>
-                <div className='boxEspecialidades'>
-                    <img id='imgEspecialidades' src={parceriaEmpresarial}></img>
-                    <div className='textoHouver'>Soluções completas parcerias de confiança em sua vida empresarial.</div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                    <p><a href="#">This is a link</a></p>
                 </div>
-                <div className='boxEspecialidades'>
-                    <img id='imgEspecialidades' src={baixoImposto}></img>
-                    <div className='textoHouver'>Mantemos a sua empresa regularizada e pagando o mínimo de impostos realmente devidos e que a empresa esteja sempre em dia com suas obrigações.  </div>
-                </div>
-                <div className='boxEspecialidades'>
-                    <img id='imgEspecialidades' src={estruturaContabil}></img>
-                    <div className='textoHouver'>Nosso time de contadores ajudará você a escolher o regime tributário e toda organização da estrutura contábil da sua empresa.</div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
                 </div>
             </div>
-
-
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src={baixoImposto}>
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                    <p><a href="#">This is a link</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src={baixoImposto}>
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                    <p><a href="#">This is a link</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src={baixoImposto}>
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                    <p><a href="#">This is a link</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+            </div> */}
         </div>
     );
 };
 
-export default especialidades;
+export default Especialidades;

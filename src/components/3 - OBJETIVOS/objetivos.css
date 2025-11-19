@@ -5,23 +5,6 @@
 
 }
 
-@media screen and (max-width:900px) {
-
-  .containerObjetivos {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-
-  }
-  
-  .boxObjetivos {
-    width: 80%;
-  }
-
-}
-
 .containerObjetivos h1{
 
   margin-bottom: 12px;
@@ -85,18 +68,43 @@
 
 .buttonServicos a{
 
-  padding: 13px 30px;
-  border: 0.1px solid rgb(156, 156, 156);
-  transition: all 0.3s ease;
-  cursor: pointer;
+  display: inline-block;
+  padding: 14px 35px;
+  border: 2px solid #2A373F;
+  color: #2A373F;
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border-radius: 6px;
+  font-size: 1.1rem;
 
 }
 
 .buttonServicos a:hover{
 
-  border: 1px solid white;
-  box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.2);
+  background-color: #2A373F;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 102, 204, 0.3);
+
+}
+
+@media screen and (max-width:1000px) {
+
+  .containerObjetivos {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+  }
+  
+  .boxObjetivos {
+
+    width: 60%;
+    margin-bottom: 80px;
+
+  }
 
 }

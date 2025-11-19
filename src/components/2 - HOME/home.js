@@ -2,7 +2,7 @@ import './home.css'
 import logo from "../../img/logoSiteKRO.png"
 import imgTelaInicial from "../../img/fundoTelaInicial.jpg"
 
-function home() {
+function Home() {
     return (
 
         <section className='containerHome' style={{
@@ -17,4 +17,4 @@ function home() {
     );
 };
 
-export default home;
+export default Home;

@@ -1,86 +1,307 @@
 .servicos {
-
   background-color: #fff;
-  padding: 5px;
-
+  padding: 100px 5%;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-.containerSimplesLucro {
+.servicos-titulo-principal {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #000000;
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+}
 
-  margin: 10%;
-  gap: 12px;
+.servico-container {
+  margin: 70px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.servico-conteudo {
   display: flex;
   align-items: center;
-  justify-content: center;
-
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: 0 auto;
+  gap: 150px;
+  box-sizing: border-box;
 }
 
-.containerServicoSolucoes {
-
-  margin: 10%;
-  gap: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
+.servico-container:not(.servico-meio) .servico-conteudo:not(.mobile) {
+  flex-direction: row;
 }
 
-.containerServicoPrevidenciario {
-
-  margin: 10%;
-  gap: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
+.servico-meio .servico-conteudo:not(.mobile) {
+  flex-direction: row;
 }
 
+.servico-conteudo.mobile {
+  flex-direction: column;
+  gap: 40px;
+}
 
-.servicos ul {
+.servico-meio .servico-conteudo:not(.mobile) .servico-imagem {
+  order: 1;
+}
 
+.servico-meio .servico-conteudo:not(.mobile) .servico-texto {
+  order: 2;
+}
+
+.servico-texto {
+  flex: 1;
+  min-width: 0;
+}
+
+.servico-texto h2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #000000;
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+}
+
+.servico-texto ul {
   list-style-type: none;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: rgb(0, 0, 0);
-  align-items: start;
-
+  padding: 0;
 }
 
-.servicos h1 {
-
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: #000000;
-  font-size: 400%;
-
-}
-
-
-#buttonSimplesLucro {
-
+.servico-texto li {
+  margin-bottom: 12px;
   display: flex;
-  color: #000000;
-  background-color: transparent;
-  cursor: pointer;
+  align-items: flex-start;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.servico-texto svg {
+  margin-right: 12px;
+  min-width: 16px;
+  color: #2A373F;
+  margin-top: 3px;
+}
+
+.servico-imagem {
+  flex: 1;
+  min-width: 0;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.servico-imagem img {
+  width: 100%;
+  height: auto;
+  filter: brightness(90%);
+  transition: transform 0.4s ease, filter 0.4s ease;
+  display: block;
+}
+
+.servico-imagem:hover img {
+  transform: scale(1.05);
+  filter: brightness(100%);
+}
+
+.servico-botao {
+  margin-top: 30px;
   text-align: center;
-  align-items: center;
-  justify-content: center;
-
-
 }
 
-#buttonSimplesLucro a{
-
-  padding: 13px 20px;
-  border: 1px solid rgb(156, 156, 156);
-  transition: all 0.3s ease;
-  cursor: pointer;
+.servico-botao a {
+  display: inline-block;
+  padding: 14px 35px;
+  border: 2px solid #2A373F;
+  color: #2A373F;
   text-decoration: none;
-  color: black;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border-radius: 6px;
+  font-size: 1.1rem;
+}
+
+.servico-botao a:hover {
+  background-color: #2A373F;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 102, 204, 0.3);
+}
+
+.servico-observacao {
+  margin-top: 25px;
+  padding: 18px;
+  background-color: #f8f9fa;
+  border-left: 4px solid #2A373F;
+  border-radius: 6px;
+}
+
+.servico-observacao p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #444;
+  font-weight: bold;
+  display: flex;
+  align-items: flex-start;
+}
+
+
+@media (max-width: 1024px) and (min-width: 881px) {
+  .servicos {
+    padding: 80px 4%;
+  }
+
+  .servicos-titulo-principal {
+    font-size: 2.3rem;
+    margin-bottom: 45px;
+  }
+
+  .servico-conteudo {
+    gap: 40px;
+  }
+
+  .servico-texto h2 {
+    font-size: 1.7rem;
+  }
+
+  .servico-texto li {
+    font-size: 0.95rem;
+  }
+
+  .servico-imagem img {
+    height: 320px;
+    object-fit: cover;
+  }
+
+  .servico-container {
+    margin: 60px 0;
+  }
+}
+
+@media (max-width: 880px) {
+  .servicos {
+    padding: 80px 15px;
+    text-align: justify;
+    align-items: flex-end;
+    justify-items: center;
+  }
+
+  .servicos-titulo-principal {
+    font-size: 2rem;
+    margin-bottom: 35px;
+    padding: 0 10px;
+  }
+
+  .servico-container {
+    margin: 50px 0;
+  }
+
+  .servico-conteudo {
+    gap: 35px;
+  }
+
+  .servico-texto h2 {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .servico-botao {
+    margin-top: 25px;
+  }
+
+  .servico-observacao {
+    margin-top: 20px;
+    padding: 15px;
+  }
+
+  .servico-imagem img {
+    height: 280px;
+    border-radius: 8px;
+  }
+
+  .servico-texto li {
+    font-size: 0.95rem;
+  }
+
+  .servico-botao a {
+    padding: 12px 30px;
+    font-size: 1rem;
+  }
+
+  .servico-texto ul{
+
+    margin-left: 50px;
+
+  }
 
 }
 
-.servicos img {
 
-  width: 800px;
-  filter: brightness(50%);
+@media (max-width: 576px) {
+  .servicos {
+    padding: 80px 12px;
+  }
 
+  .servicos-titulo-principal {
+    font-size: 1.8rem;
+  }
+
+  .servico-texto h2 {
+    font-size: 1.5rem;
+  }
+
+  .servico-texto li {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+
+  .servico-botao a {
+    padding: 11px 28px;
+    font-size: 0.95rem;
+  }
+
+  .servico-observacao p {
+    font-size: 0.85rem;
+  }
+
+  .servico-imagem img {
+    height: 240px;
+  }
+
+  .servico-container {
+    margin: 45px 0;
+  }
+
+}
+
+@media (max-width: 400px) {
+  .servicos {
+    padding: 30px 10px;
+  }
+
+  .servicos-titulo-principal {
+    font-size: 1.7rem;
+  }
+
+  .servico-texto h2 {
+    font-size: 1.4rem;
+  }
+
+  .servico-texto li {
+    font-size: 0.85rem;
+  }
+
+  .servico-imagem img {
+    height: 200px;
+  }
+
+  .servico-botao a {
+    padding: 10px 25px;
+    font-size: 0.9rem;
+  }
+
+  
 }

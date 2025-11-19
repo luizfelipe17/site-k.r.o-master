@@ -57,7 +57,17 @@
 
 }
 
-@media screen and (max-width: 822px) {
+@media screen and (max-width: 1017px) {
+
+    .boxFooter{
+
+        width: 230px;
+
+    }
+
+}
+
+@media screen and (max-width: 821px) {
 
     .containerFooter {
 
