@@ -1,10 +1,15 @@
 .containerContato {
   display: flex;
+  margin-top: 10px;
   margin-bottom: 60px;
   margin-left: 50px;
   margin-right: 50px;
   align-items: center;
   justify-content: center;
+}
+
+#contato {
+  scroll-margin-top: 50px;
 }
 
 .contato h1 {
@@ -31,17 +36,24 @@
   color: black;
 }
 
-.informacoes p {
-  padding-top: 40px;
+.contato a:hover{
+
+    color: #5a5a5a;
+
+}
+
+.contato p {
+  font-size: 15px;
+  padding-bottom: 15px;
 }
 
 .contato h3 {
   padding-top: 40px;
-
+  
 }
 
 .boxinformacoes {
-  margin-left: 60px;
+  margin-right: 60px;
 
 }
 
@@ -78,6 +90,18 @@
 
     display: flex;
     flex-direction: column;
+
+  }
+
+  .horarios{
+
+    display: flex;
+
+  }
+
+  .horarioSexta{
+
+    padding-left: 40px;
 
   }
 

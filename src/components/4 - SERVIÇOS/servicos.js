@@ -1,4 +1,5 @@
 import './servicos.css'
+import { useReveal } from "../../hooks/useReveal";
 import inss from "../../img/inss.jpg"
 import mei from "../../img/mei.jpg"
 import simplesLucro from "../../img/lucroPresumido.jpg"
@@ -17,6 +18,15 @@ function Servicos() {
         window.addEventListener('resize', handleResize);
         return () => window.removeEventListener('resize', handleResize);
     }, []);
+    
+        //!mobile
+        useReveal('#servico-texto-efeito-esquerda', { duration: 1500, distance: "50px", origin: 'left' })
+        useReveal('#servico-texto-efeito-direita', { duration: 1500, distance: "50px", origin: 'right' })
+        useReveal('#servico-imagem-efeito-direita', { duration: 1500, distance: "50px", origin: 'right' })
+        useReveal('#servico-imagem-efeito-esquerda', { duration: 1500, distance: "50px", origin: 'left' })
+
+        //mobile
+        useReveal('#servico-imagem-efeito-mobile', { duration: 1500, distance: "50px", origin: 'right' })
 
     return (
         <section className='servicos' id='servicos'>
@@ -25,11 +35,11 @@ function Servicos() {
             <div className='servico-container'>
                 <div className={`servico-conteudo ${isMobile ? 'mobile' : ''}`}>
                     {isMobile && (
-                        <div className="servico-imagem">
+                        <div id = "servico-imagem-efeito-mobile" className="servico-imagem">
                             <img src={simplesLucro} alt="Serviços de Simples Nacional e Lucro Presumido" />
                         </div>
                     )}
-                    <div className="servico-texto">
+                    <div id = "servico-texto-efeito-esquerda" className="servico-texto">
                         <h2>Simples Nacional / Lucro Presumido</h2>
                         <ul>
                             <li><PiCaretDoubleRightDuotone /> Abertura de empresa</li>
@@ -43,11 +53,11 @@ function Servicos() {
                             <li><PiCaretDoubleRightDuotone /> Processos Digitais: Administrativo tributário Federal ou Municipal</li>
                         </ul>
                         <div className='servico-botao'>
-                            <a href="">ABRIR EMPRESA</a>
+                            <a href="#documentos">DOCUMENTOS</a>
                         </div>
                     </div>
                     {!isMobile && (
-                        <div className="servico-imagem">
+                        <div id = "servico-imagem-efeito-direita" className="servico-imagem">
                             <img src={simplesLucro} alt="Serviços de Simples Nacional e Lucro Presumido" />
                         </div>
                     )}
@@ -56,10 +66,10 @@ function Servicos() {
 
             <div className='servico-container servico-meio'>
                 <div className={`servico-conteudo ${isMobile ? 'mobile' : ''}`}>
-                    <div className="servico-imagem">
+                    <div id = "servico-imagem-efeito-esquerda" className="servico-imagem">
                         <img src={mei} alt="Serviços para MEI e Pessoa Física" />
                     </div>
-                    <div className="servico-texto">
+                    <div id = "servico-texto-efeito-direita" className="servico-texto">
                         <h2>MEI / Pessoa Física</h2>
                         <ul>
                             <li><PiCaretDoubleRightDuotone /> DIRPF</li>
@@ -81,11 +91,11 @@ function Servicos() {
             <div className='servico-container'>
                 <div className={`servico-conteudo ${isMobile ? 'mobile' : ''}`}>
                     {isMobile && (
-                        <div className="servico-imagem">
+                        <div id = "servico-imagem-efeito-mobile" className="servico-imagem">
                             <img src={inss} alt="Serviços Previdenciários INSS" />
                         </div>
                     )}
-                    <div className="servico-texto">
+                    <div id = "servico-texto-efeito-esquerda" className="servico-texto">
                         <h2>Previdenciário – INSS</h2>
                         <ul>
                             <li><PiCaretDoubleRightDuotone /> Aposentadoria</li>
@@ -95,14 +105,14 @@ function Servicos() {
                             <li><PiCaretDoubleRightDuotone /> Salário Maternidade</li>
                             <li><PiCaretDoubleRightDuotone /> Análise e acerto de CNIS</li>
                             <li><PiCaretDoubleRightDuotone /> Planejamento Previdenciário</li>
-                            <li><PiCaretDoubleRightDuotone /> Revisão/ recurso Administrativo</li>
+                            <li><PiCaretDoubleRightDuotone /> Revisão / Recurso Administrativo</li>
                         </ul>
                         <div className="servico-observacao">
                             <p>TODOS SERVIÇOS PREVIDENCIÁRIOS SERÃO PRESTADOS SOMENTE NO ENDEREÇO DE CONTAGEM</p>
                         </div>
                     </div>
                     {!isMobile && (
-                        <div className="servico-imagem">
+                        <div id = "servico-imagem-efeito-direita" className="servico-imagem">
                             <img src={inss} alt="Serviços Previdenciários INSS" />
                         </div>
                     )}

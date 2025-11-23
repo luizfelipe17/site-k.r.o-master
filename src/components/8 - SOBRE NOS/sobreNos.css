@@ -6,6 +6,10 @@
   
 }
 
+#sobreNos {
+  scroll-margin-top: 50px;
+}
+
 
 .sobreNos h1 {
   color: white;
@@ -41,9 +45,14 @@
   
   .sobreNos{
     order: 2;
+    margin: 40px 50px 80px 50px;
+
   }
   
   .imgContador{
+
+    margin: 5%;
+    width: 90%;
     order: 1;
 
   }

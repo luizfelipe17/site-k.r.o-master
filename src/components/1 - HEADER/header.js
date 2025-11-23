@@ -3,7 +3,7 @@ import logo from "../../img/KRO.png"
 
 function Header() {
     return (
-        <div className="head">
+        <section className="head">
             <a href='#home'><img src={logo} /></a>
 
             <div className="navButtons">
@@ -11,7 +11,7 @@ function Header() {
                 <a id='sobreNos1' href='#sobreNos'>SOBRE NÓS</a>
                 <a id='contato1' href='#contato'>CONTATO</a>
             </div>
-        </div>
+        </section>
     );
 }
 

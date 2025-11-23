@@ -4,6 +4,12 @@
 
 }
 
+.enderecoFooter h3 {
+
+    font-style: normal;
+    padding: 0px;
+
+}
 
 .boxFooter h3 {
 
@@ -28,13 +34,14 @@
 
 }
 
-.containerFooter a:hover{
+.containerFooter a:hover {
 
     color: #2A373F;
 
 }
 
-.boxFooter a, li{
+.boxFooter a,
+li {
 
     color: black;
     text-decoration: none;
@@ -44,17 +51,17 @@
 
 
 
-#navegacaoFooter li::before{
+/* #navegacaoFooter li::before {
 
-    content: "-";
+    content: "";
     color: black;
 
-}
+} */
 
-#iconsContato{
+#iconsContato {
 
     margin: 0 40px;
-    
+
 }
 
 
@@ -67,12 +74,45 @@
 
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1218px) {
 
-    .boxFooter{
+    .boxFooter {
 
-        width: 280px;
+        width: 350px;
 
+    }
+
+    #informacoesFooter {
+
+        order: 1;
+    }
+
+    #contatoFooter {
+
+        order: 2;
+    }
+
+    #navegacaoFooter {
+
+        order: 3;
+    }
+}
+
+@media screen and (max-width: 982px) {
+
+        #informacoesFooter {
+
+        order: 2;
+    }
+
+    #contatoFooter {
+
+        order: 1;
+    }
+
+    #navegacaoFooter {
+
+        order: 3;
     }
 
 }

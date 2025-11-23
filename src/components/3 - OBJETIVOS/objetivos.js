@@ -1,23 +1,30 @@
 import './objetivos.css'
+import { useReveal } from "../../hooks/useReveal";
 import missao from "../../img/missao.png"
 import servico from "../../img/servico.png"
 import visao from "../../img/visao.png"
 
 function Objetivos() {
+
+    useReveal('#missao', { duration: 1000 , delay:300, reset: false});
+    useReveal('#visao', { duration: 1500, delay:600, reset: false});
+    useReveal('#servico', { duration: 1500, delay:750, reset: false});
+    useReveal('.buttonServicos', { duration: 1000, reset: false});
+
     return (
-        <>
+        <section>
             <div className='containerObjetivos'>
-                <div className='boxObjetivos'>
+                <div id='missao' className='boxObjetivos'>
                     <img src={missao} />
                     <h1>MISSÃO</h1>
                     <p>Oferecer serviços contábeis com excelência e ética, sempre focando em soluções eficazes para as necessidades de cada cliente.</p>
                 </div>
-                <div className='boxObjetivos'>
+                <div id='visao' className='boxObjetivos'>
                     <img src={visao} />
                     <h1>VISÃO</h1>
                     <p>Nosso propósito é ser uma contabilidade que vai além dos números, que compreende de forma humana, atenta e empática as necessidades reais de cada cliente, oferecendo soluções práticas e personalizadas.</p>
                 </div>
-                <div className='boxObjetivos'>
+                <div id='servico' className='boxObjetivos'>
                     <img src={servico} />
                     <h1>POR QUE CONTRATAR NOSSOS SERVIÇOS?</h1>
                     <ul>
@@ -31,7 +38,7 @@ function Objetivos() {
             <div className='buttonServicos'>
                 <a href='#servicos'>SERVIÇOS</a>
             </div>
-        </>
+        </section>
     );
 };
 

@@ -6,9 +6,12 @@
 
 }
 
-.aberturaEmpresas {
+#documentos {
+  scroll-margin-top: 100px;
+}
 
-  margin-bottom: 150px;
+.aberturaEmpresas {
+  margin-bottom: 50px;
 }
 
 .containerAberturaEmpresa {
@@ -25,7 +28,7 @@
   font-size: 2.5rem;
 }
 
-.boxAberturaEmpresaItens h3 {
+.boxAberturaEmpresaItens h3{
   padding: 10px;
 }
 
@@ -83,7 +86,6 @@
   .primeiraLinha {
     display: flex;
     flex-direction: column;
-    background-color: black;
   }
 
   .segundaLinha {
@@ -112,7 +114,6 @@
     .primeiraLinha {
     display: flex;
     flex-direction: column;
-    background-color: black;
   }
 
   .segundaLinha {
