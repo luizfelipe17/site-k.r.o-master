@@ -1,47 +1,130 @@
-.aberturaEmpresas{
-
-  background-color: #fff;
-  padding: 10px;
-  
-
-}
-
-.aberturaEmpresas h3 {
-
-  margin: 5%;
-  text-align: center;
-
-
-}
-
 .boxAberturaEmpresas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.aberturaEmpresas {
+
+  margin-bottom: 150px;
+}
+
+.containerAberturaEmpresa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.aberturaEmpresas h1 {
+  margin-bottom: 100px;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.boxAberturaEmpresaItens h3 {
+  padding: 10px;
+}
+
+.primeiraLinha {
+  display: flex;
+}
+
+.segundaLinha {
 
   display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
-  gap: 50px;
-  margin-bottom: 10%;
-
 }
 
-.boxAberturaEmpresas p {
+.boxAberturaEmpresaItens {
 
-  font-size: 30px;
-  color: #000000;
-  margin-left: 5%;
-  text-align: center;
-
-}
-
-#boxAberturaEmpresaItens {
-
+  display: flex;
   background-color: #ffffff;
-  box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.2);
-  padding: 5%;
-  width: 200px;
-  height: 200px;
-  align-content: center;
+  width: 300px;
+  height: 90px;
+  padding-left: 20px;
+  justify-content: start;
+  align-items: center;
   text-align: center;
+  border: 1px solid #e6e6e6;
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.aberturaEmpresas img {
+
+  border-radius: 20px 20px 0 0;
+  width: 966px;
+  height: 323px;
+  transition: transform 0.4s ease, filter 0.4s ease;
+
+}
+
+.boxAberturaEmpresaItens:hover {
+
+  transform: scale(1.04);
+  filter: brightness(96%);
+}
+
+.containerAberturaEmpresa img:hover {
+  filter: brightness(80%);
+}
+
+@media (max-width: 1025px) {
+
+  .boxAberturaEmpresas {
+
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .primeiraLinha {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+  }
+
+  .segundaLinha {
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aberturaEmpresas img {
+
+  width: 644px;
+  height: 260px;
+  }
+
+}
+
+@media (max-width: 700px) {
+
+    .boxAberturaEmpresas {
+
+    display: flex;
+    flex-direction: column;
+
+  }
+
+    .primeiraLinha {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+  }
+
+  .segundaLinha {
+
+    display: flex;
+    flex-direction: column;
+  }
+
+    .aberturaEmpresas img {
+
+  width: 322px;
+  height: 150px;
+  }
 
 }

@@ -1,10 +1,10 @@
 import './header.css'
-import logo from "../../img/logoSiteKRO.png"
+import logo from "../../img/KRO.png"
 
 function Header() {
     return (
         <div className="head">
-            <img src={logo} />
+            <a href='#home'><img src={logo} /></a>
 
             <div className="navButtons">
                 <a id='home1' href='#home'>HOME</a>

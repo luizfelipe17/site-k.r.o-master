@@ -4,6 +4,7 @@
 
 }
 
+
 .boxFooter h3 {
 
     padding: 5px;
@@ -23,6 +24,13 @@
     gap: 25px;
     padding: 15px;
     margin-right: 30px;
+    line-height: 1.5em;
+
+}
+
+.containerFooter a:hover{
+
+    color: #2A373F;
 
 }
 
@@ -33,6 +41,8 @@
     list-style: none;
 
 }
+
+
 
 #navegacaoFooter li::before{
 
@@ -57,17 +67,17 @@
 
 }
 
-@media screen and (max-width: 1017px) {
+@media screen and (max-width: 1020px) {
 
     .boxFooter{
 
-        width: 230px;
+        width: 280px;
 
     }
 
 }
 
-@media screen and (max-width: 821px) {
+@media screen and (max-width: 852px) {
 
     .containerFooter {
 

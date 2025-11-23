@@ -1,6 +1,32 @@
+@font-face {
+  font-family: 'Avenir';
+  src: url('./fontes/Avenir/Avenir-Light.ttf') format('truetype');
+
+  font-family: 'JosefinSans';
+  src: url('./fontes/JosefinSans/JosefinSans-Light.ttf') format('truetype');
+}
+
+h1,
+h2,
+h3 {
+
+  font-family: JosefinSans, sans-serif;
+
+}
+
+p,
+scam,
+li,
+a {
+
+  font-family: Avenir, sans-serif;
+  letter-spacing: 0.05em;
+
+}
+
 html {
   scroll-behavior: smooth;
-  background-color: #181818;
+  background-color: #ffffff;
   width: 100%;
 }
 

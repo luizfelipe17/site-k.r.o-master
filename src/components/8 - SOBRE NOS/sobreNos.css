@@ -1,20 +1,51 @@
-.sobreNos {
-
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 70vh;
-
-}
-
-.containerSobreNos{
-
+.containerSobreNos {
   display: flex;
+  background-color: rgb(59, 59, 59);
   align-items: center;
   justify-content: center;
-  color: white;
-  margin-top: 23%;
-  margin-left: 5%;
+  
+}
 
+
+.sobreNos h1 {
+  color: white;
+  font-size: 3rem;
+}
+
+.sobreNos p {
+  padding-top: 40px;
+  text-align: justify;
+  font-family: Avenir, sans-serif;
+  letter-spacing: 0.05em;
+  line-height: 1.6em;
+}
+
+.imgContador {
+  margin: 80px 50px 80px 40px;
+  
+}
+
+.sobreNos {
+  color: white;
+  margin: 80px 50px 80px 80px;
+}
+
+@media (max-width: 1024px) {
+
+  .containerSobreNos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  } 
+  
+  .sobreNos{
+    order: 2;
+  }
+  
+  .imgContador{
+    order: 1;
+
+  }
 
 }

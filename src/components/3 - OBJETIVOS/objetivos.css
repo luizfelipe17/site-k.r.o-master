@@ -1,13 +1,13 @@
 .containerObjetivos {
-
   display: flex;
-  background-color: #fff;
-
+  align-items: center;
+  justify-content: center;
 }
 
-.containerObjetivos h1{
+.containerObjetivos h1 {
 
   margin-bottom: 12px;
+  letter-spacing: 0.05em;
 
 }
 
@@ -23,14 +23,14 @@
   justify-content: center;
   align-content: center;
   text-align: start;
-  
 
 }
 
-.containerObjetivos li{
+.containerObjetivos li {
 
   margin-left: 2%;
   margin-bottom: 2%;
+  letter-spacing: 0.05em;
 
 }
 
@@ -38,25 +38,34 @@
 .boxObjetivos {
 
   background-color: #ffffff;
-  box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.2);
-  margin-right: 5%;
-  margin-left: 5%;
-  margin-top: 6%;
-  margin-bottom: 4%;
-  width: 30%;
+  margin: 3% 1.8% 4% 1.8%;
+  width: 300px;
+  height: 400px;
   padding: 2%;
   text-align: center;
+  border: 1px solid #e6e6e6;
 
 }
 
-.boxObjetivos li::before{
 
-    content: "➤";
-    color: black;
+.boxObjetivos p {
+  text-align: center;
+  font-family: Avenir, sans-serif;
+  letter-spacing: 0.05em;
+  line-height: 1.6em;
+}
+
+.boxObjetivos li::before {
+
+  content: "➤";
+  color: black;
+  font-family: Avenir, sans-serif;
+  letter-spacing: 0.05em;
+  line-height: 1.6em;
 
 }
 
-.buttonServicos{
+.buttonServicos {
 
   display: flex;
   flex-direction: column;
@@ -66,7 +75,7 @@
 
 }
 
-.buttonServicos a{
+.buttonServicos a {
 
   display: inline-block;
   padding: 14px 35px;
@@ -80,7 +89,7 @@
 
 }
 
-.buttonServicos a:hover{
+.buttonServicos a:hover {
 
   background-color: #2A373F;
   color: white;
@@ -99,11 +108,10 @@
     text-align: center;
 
   }
-  
-  .boxObjetivos {
 
-    width: 60%;
-    margin-bottom: 80px;
+  .boxObjetivos {
+    width: 300px;
+    height: 400px;
 
   }
 
