@@ -2,6 +2,7 @@
   "name": "site-k.r.o",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://luizfelipe17.github.io/site-k.r.o-master/",
   "dependencies": {
     "@react-google-maps/api": "^2.20.7",
     "@testing-library/dom": "^10.4.1",
