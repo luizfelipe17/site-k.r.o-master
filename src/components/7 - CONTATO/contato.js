@@ -36,7 +36,7 @@ function Contato() {
                     <div className='boxinformacoes'>
                         <h3>Informações</h3>
 
-                        <a href='mailto:oscarcontabilidade@gmail.com?subject=Contato+via+Site+%E2%80%93+K.R.O.+Consultoria&body=Ol%C3%A1,++Estou+entrando+em+contato+atrav%C3%A9s+do+site+da+K.R.O.+Consultoria+para+tirar+algumas+d%C3%BAvidas+sobre+os+servi%C3%A7os+oferecidos.++Fico+no+aguardo+do+retorno.+Obrigado!' target='_blank'>Email: oscarcontabilidade@hotmail.com</a>
+                        <a href='mailto:oscarcontabilidade@hotmail.com?subject=Contato+via+Site+%E2%80%93+K.R.O.+Consultoria&body=Ol%C3%A1, Estou entrando em contato atrav%C3%A9s do site da K.R.O. Consultoria para tirar algumas d%C3%BAvidas sobre os servi%C3%A7os oferecidos. Fico no aguardo do retorno. Obrigado!' target='_blank'>Email: oscarcontabilidade@hotmail.com</a>
                         <a href='https://wa.me/+5531988997860?text=Olá! Gostaria de informações sobre os serviços de contabilidade. Pode me ajudar?' target='_blank'>Whatsapp (Betim): +55 (31) 98899-7860</a>
                         <a href='https://wa.me/+5531988998144?text=Olá! Gostaria de informações sobre os serviços de contabilidade. Pode me ajudar?' target='_blank'>Whatsapp (Contagem):+55 (31) 98899-8144</a>
                         <a>Telefone: (31) 3594-1294</a>
