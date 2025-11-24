@@ -6,7 +6,7 @@ import { useReveal } from "../../hooks/useReveal";
 
 function Footer() {
 
-    useReveal('.containerFooter', {duration: 1500, origin: 'bottom'})
+    // useReveal('.containerFooter', {duration: 1500, origin: 'bottom'})
 
     return (
         <footer className='footer'>

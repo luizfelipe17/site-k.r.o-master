@@ -5,7 +5,7 @@ import imgTelaInicial from "../../img/fundoTelaInicial.jpg"
 
 function Home() {
 
-    useReveal ('.home', {duration: 1500, delay: 200})
+    // useReveal ('.home', {duration: 1500, delay: 200})
 
     return (
         <section className='containerHome' style={{

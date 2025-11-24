@@ -6,10 +6,10 @@ import visao from "../../img/visao.png"
 
 function Objetivos() {
 
-    useReveal('#missao', { duration: 1000 , delay:300, reset: false});
-    useReveal('#visao', { duration: 1500, delay:600, reset: false});
-    useReveal('#servico', { duration: 1500, delay:750, reset: false});
-    useReveal('.buttonServicos', { duration: 1000, reset: false});
+    // useReveal('#missao', { duration: 1000 , delay:300, reset: false});
+    // useReveal('#visao', { duration: 1500, delay:600, reset: false});
+    // useReveal('#servico', { duration: 1500, delay:700, reset: false});
+    // useReveal('.buttonServicos', { duration: 1000, reset: false});
 
     return (
         <section>

@@ -5,13 +5,13 @@ import imgAberturaEmpresa from "../../img/imgAberturaEmpresa.jpg"
 
 function AberturaEmpresa() {
 
-    useReveal('#box-efeitos-1', { duration: 1500, distance: "10px", origin: "bottom", reset: false})
-    useReveal('#box-efeitos-2', { duration: 2000, delay: 200, distance: "10px", origin: "bottom", reset: false})
-    useReveal('#box-efeitos-3', { duration: 2000, delay: 400, distance: "10px", origin: "bottom", reset: false })
-    useReveal('#box-efeitos-4', { duration: 2000, delay: 600, distance: "10px", origin: "bottom", reset: false })
-    useReveal('#box-efeitos-5', { duration: 2000, delay: 800, distance: "10px", origin: "bottom", reset: false})
-    useReveal('#box-efeitos-6', { duration: 2000, delay: 900, distance: "10px", origin: "bottom", reset: false })
-    useReveal('#box-efeitos-7', { duration: 2000, delay: 1100, distance: "10px", origin: "bottom", reset: false })
+    // useReveal('#box-efeitos-1', { duration: 1500, distance: "10px", origin: "bottom", reset: false})
+    // useReveal('#box-efeitos-2', { duration: 2000, delay: 200, distance: "10px", origin: "bottom", reset: false})
+    // useReveal('#box-efeitos-3', { duration: 2000, delay: 400, distance: "10px", origin: "bottom", reset: false })
+    // useReveal('#box-efeitos-4', { duration: 2000, delay: 600, distance: "10px", origin: "bottom", reset: false })
+    // useReveal('#box-efeitos-5', { duration: 2000, delay: 800, distance: "10px", origin: "bottom", reset: false})
+    // useReveal('#box-efeitos-6', { duration: 2000, delay: 900, distance: "10px", origin: "bottom", reset: false })
+    // useReveal('#box-efeitos-7', { duration: 2000, delay: 1100, distance: "10px", origin: "bottom", reset: false })
 
     return (
         <section id = 'documentos' className='aberturaEmpresas'>

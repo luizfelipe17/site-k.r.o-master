@@ -16,8 +16,8 @@ function Contato() {
         lng: -44.198684,
     }
 
-    useReveal('.contato', { duration: 1500, distance: "10px", origin: 'left' })
-    useReveal('.map', { duration: 1500, distance: "10px", origin: "right" })
+    // useReveal('.contato', { duration: 1500, distance: "10px", origin: 'left' })
+    // useReveal('.map', { duration: 1500, distance: "10px", origin: "right" })
 
     return (
         <section id='contato' className='containerContato'>

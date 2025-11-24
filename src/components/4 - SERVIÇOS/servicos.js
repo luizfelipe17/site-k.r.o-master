@@ -20,13 +20,13 @@ function Servicos() {
     }, []);
     
         //!mobile
-        useReveal('#servico-texto-efeito-esquerda', { duration: 1500, distance: "50px", origin: 'left' })
-        useReveal('#servico-texto-efeito-direita', { duration: 1500, distance: "50px", origin: 'right' })
-        useReveal('#servico-imagem-efeito-direita', { duration: 1500, distance: "50px", origin: 'right' })
-        useReveal('#servico-imagem-efeito-esquerda', { duration: 1500, distance: "50px", origin: 'left' })
+        // useReveal('#servico-texto-efeito-esquerda', { duration: 1500, distance: "50px", origin: 'left' })
+        // useReveal('#servico-texto-efeito-direita', { duration: 1500, distance: "50px", origin: 'right' })
+        // useReveal('#servico-imagem-efeito-direita', { duration: 1500, distance: "50px", origin: 'right' })
+        // useReveal('#servico-imagem-efeito-esquerda', { duration: 1500, distance: "50px", origin: 'left' })
 
-        //mobile
-        useReveal('#servico-imagem-efeito-mobile', { duration: 1500, distance: "50px", origin: 'right' })
+        // //mobile
+        // useReveal('#servico-imagem-efeito-mobile', { duration: 1500, distance: "50px", origin: 'right' })
 
     return (
         <section className='servicos' id='servicos'>
