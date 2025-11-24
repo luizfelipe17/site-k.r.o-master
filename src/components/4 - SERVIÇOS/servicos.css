@@ -69,6 +69,7 @@
 .servico-texto li {
   margin-bottom: 12px;
   display: flex;
+  text-align: start;
   align-items: flex-start;
   justify-content: start;
   font-size: 1rem;

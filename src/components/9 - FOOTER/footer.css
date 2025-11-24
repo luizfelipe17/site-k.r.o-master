@@ -49,15 +49,6 @@ li {
 
 }
 
-
-
-/* #navegacaoFooter li::before {
-
-    content: "";
-    color: black;
-
-} */
-
 #iconsContato {
 
     margin: 0 40px;
@@ -74,11 +65,29 @@ li {
 
 }
 
-@media screen and (max-width: 1218px) {
+@media screen and (max-width: 1226px) {
 
     .boxFooter {
 
         width: 350px;
+
+    }
+
+    .horario {
+
+        display: flex;
+
+    }
+
+    .horariosSexta {
+
+        padding-left: 40px;
+
+    }
+
+    .horariosAtendimento {
+
+        margin-left: 60px;
 
     }
 
@@ -100,7 +109,7 @@ li {
 
 @media screen and (max-width: 982px) {
 
-        #informacoesFooter {
+    #informacoesFooter {
 
         order: 2;
     }
