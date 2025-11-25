@@ -141,6 +141,12 @@ p {
 
 }
 
+@media screen and (max-width: 1235px) {
+    .containerFooter {
+        padding: 40px 50px 15px 50px;
+    }
+}
+
 @media screen and (max-width: 852px) {
 
     .containerFooter {
