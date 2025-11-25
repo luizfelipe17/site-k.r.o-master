@@ -248,7 +248,9 @@
 
 @media (max-width: 768px) {
   .servico-observacao {
-    margin-right: 50px;
+    
+    margin-left: 15px;
+    margin-right: 15px;
   }
 }
 
