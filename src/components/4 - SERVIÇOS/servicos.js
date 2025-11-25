@@ -19,13 +19,12 @@ function Servicos() {
         return () => window.removeEventListener('resize', handleResize);
     }, []);
     
-        //!mobile
+        
         useReveal('#servico-texto-efeito-esquerda', { duration: 1500, distance: "10px", origin: 'left' })
         useReveal('#servico-texto-efeito-direita', { duration: 1500, distance: "10px", origin: 'right' })
         useReveal('#servico-imagem-efeito-direita', { duration: 1500, distance: "10px", origin: 'right' })
         useReveal('#servico-imagem-efeito-esquerda', { duration: 1500, distance: "10px", origin: 'left' })
 
-        // //mobile
         useReveal('#servico-imagem-efeito-mobile', { duration: 1500, distance: "10px", origin: 'right' })
 
     return (
