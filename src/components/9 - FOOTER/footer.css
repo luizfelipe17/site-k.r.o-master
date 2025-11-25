@@ -39,9 +39,7 @@
 
 }
 
-.boxFooter a,
-li,
-p {
+.boxFooter a{
 
     color: black;
     text-decoration: none;
@@ -49,6 +47,25 @@ p {
     line-height: 1.8em;
 
 }
+
+.boxFooter li {
+
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    line-height: 1.8em;
+
+}
+
+.boxFooter p {
+
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    line-height: 1.8em;
+
+}
+
 
 #whatsapp {
 
