@@ -53,7 +53,7 @@ function Servicos() {
                             <li><PiCaretDoubleRightDuotone /> Processos Digitais: Administrativo tributário Federal ou Municipal</li>
                         </ul>
                         <div className='servico-botao'>
-                            <a href="#documentos">DOCUMENTOS</a>
+                            <a href="#documentos">DOCUMENTOS PARA ABERTURA DE EMPRESA</a>
                         </div>
                     </div>
                     {!isMobile && (
@@ -108,7 +108,7 @@ function Servicos() {
                             <li><PiCaretDoubleRightDuotone /> Revisão / Recurso Administrativo</li>
                         </ul>
                         <div className="servico-observacao">
-                            <p>TODOS SERVIÇOS PREVIDENCIÁRIOS SERÃO PRESTADOS SOMENTE NO ENDEREÇO DE CONTAGEM</p>
+                            <p>Prestação de serviços previdenciários, com prioridade de atendimento no endereço de Contagem.</p>
                         </div>
                     </div>
                     {!isMobile && (

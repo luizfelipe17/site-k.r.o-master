@@ -36,6 +36,13 @@
   color: black;
 }
 
+#whatsapp-p{
+
+  font-size: 16px;
+  padding: 0px;
+
+}
+
 .contato a:hover{
 
     color: #5a5a5a;
