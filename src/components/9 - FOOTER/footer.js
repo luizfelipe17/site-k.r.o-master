@@ -12,7 +12,7 @@ function Footer() {
         <footer className='footer'>
             <div className='containerFooter'>
                 <div id='enderecoFooter'>
-                    <address>
+              
                         <p>K.R.O Consultoria Empresarial Previdenciaria Tributaria LTDA: 11.020.769/0001-98<br></br><br></br></p>
 
                         <h3><FiMapPin /> Unidade Betim</h3>
@@ -22,8 +22,6 @@ function Footer() {
                         <h3><FiMapPin /> Unidade Contagem - "Somente Serviços Previdenciários"</h3>
                         <p>Rua Moassy, 48 - Novo Eldorado, Contagem<br></br>
                             MG, 32341-170<br></br></p>
-
-                    </address>
                 </div>
 
                 <div id='contatoFooter' className='boxFooter'>
