@@ -26,11 +26,13 @@ function Footer() {
 
                 <div id='contatoFooter' className='boxFooter'>
                     <h3>CONTATO</h3><br></br>
-                    <a href='mailto:oscarcontabilidade@hotmail.com?subject=Contato via Site %E2%80%93 K.R.O. Consultoria&body=Ol%C3%A1, Estou entrando em contato atrav%C3%A9s do site da K.R.O. Consultoria para tirar algumas d%C3%BAvidas sobre os servi%C3%A7os oferecidos. Fico no aguardo do retorno. Obrigado!' target='_blank'><FiMail /> OSCARCONTABILIDADE@HOTMAIL.COM</a><br></br>
                     <a><FiPhone /> TELEFONE: (31) 3594-1294</a><br></br>
+                    <p><FiMail /> EMAIL:</p>
+                    <a id = "espacamentoContato" href='mailto:oscarcontabilidade@hotmail.com?subject=Contato via Site %E2%80%93 K.R.O. Consultoria&body=Ol%C3%A1, Estou entrando em contato atrav%C3%A9s do site da K.R.O. Consultoria para tirar algumas d%C3%BAvidas sobre os servi%C3%A7os oferecidos. Fico no aguardo do retorno. Obrigado!' target='_blank'>Oscarcontabilidade@hotmail.com (Betim)</a><br></br>
+                    <a id = "espacamentoContato" href='mailto:oscarcontabilidade2009@gmail.com?subject=Contato via Site %E2%80%93 K.R.O. Consultoria&body=Ol%C3%A1, Estou entrando em contato atrav%C3%A9s do site da K.R.O. Consultoria para tirar algumas d%C3%BAvidas sobre os servi%C3%A7os oferecidos. Fico no aguardo do retorno. Obrigado!' target='_blank'>Oscarcontabilidade2009@gmail.com (Contagem)</a><br></br>
                     <p><FaWhatsapp /> WHATSAPP:</p>
-                    <a id = "whatsapp" href='https://wa.me/+5531988997860?text=Olá! Gostaria de informações sobre os serviços de contabilidade. Pode me ajudar?' target='_blank'>+55 (31) 98899-7860 (Betim)</a><br></br>
-                    <a id = "whatsapp" href='https://wa.me/+5531988998144?text=Olá! Gostaria de informações sobre os serviços de contabilidade. Pode me ajudar?' target='_blank'>+55 (31) 98899-8144 (Contagem)</a><br></br>
+                    <a id = "espacamentoContato" href='https://wa.me/+5531988997860?text=Olá! Gostaria de informações sobre os serviços de contabilidade. Pode me ajudar?' target='_blank'>+55 (31) 98899-7860 (Betim)</a><br></br>
+                    <a id = "espacamentoContato" href='https://wa.me/+5531988998144?text=Olá! Gostaria de informações sobre os serviços de contabilidade. Pode me ajudar?' target='_blank'>+55 (31) 98899-8144 (Contagem)</a><br></br>
                     <br></br>
                 </div>
 
