@@ -1,4 +1,4 @@
-.head {
+.header {
 
   position: fixed;
   display: flex;
@@ -11,8 +11,8 @@
 
 }
 
-.head img {
-  padding-top: 5px;;
+.header img {
+  padding-top: 5px;
   height: 55px;
 }
 
@@ -25,14 +25,14 @@
   font-size: 100%;
   color: #fff;
   text-decoration: none;
-  
+
 }
 
 .navButtons a::after {
   content: "";
   position: absolute;
   left: 0;
-  bottom: -3px;    
+  bottom: -3px;
   width: 0%;
   height: 2px;
   background-color: rgb(255, 255, 255);
@@ -44,3 +44,14 @@
   width: 70%;
 }
 
+.btn_icon {
+  position: fixed;
+  color: white;
+  width: 30px;
+  height: 30px;
+  margin-top: 32px;
+  margin-left: 32px;
+  cursor: pointer;
+}
+
+@media screen and (max-width:768px) {}

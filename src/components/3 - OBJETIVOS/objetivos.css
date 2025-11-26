@@ -25,17 +25,19 @@
   justify-content: center;
   align-content: center;
   text-align: start;
+  text-decoration: none;
 
 }
 
 .containerObjetivos li {
 
+  text-decoration: none;
   margin-left: 2%;
   margin-bottom: 2%;
   letter-spacing: 0.05em;
+  list-style: none;
 
 }
-
 
 .boxObjetivos {
 
@@ -60,7 +62,7 @@
 .boxObjetivos li::before {
 
   content: "➤";
-  color: black;
+  color: rgb(0, 0, 0);
   font-family: Avenir, sans-serif;
   letter-spacing: 0.05em;
   line-height: 1.6em;

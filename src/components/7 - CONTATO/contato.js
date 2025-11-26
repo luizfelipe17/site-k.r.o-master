@@ -25,7 +25,7 @@ function Contato() {
                 <div>
                     <h1>Contato</h1>
                     <h3><FiMapPin /> Unidade Betim</h3>
-                    <p>Rua Inconfidência, 510 - Centro, Betim<br></br>
+                    <p>Rua Inconfidência, 510 - Sala 202 - Centro, Betim<br></br>
                         MG, 32600-100</p>
 
                     <h3><FiMapPin /> Unidade Contagem - "Somente Serviços Previdenciários"</h3>

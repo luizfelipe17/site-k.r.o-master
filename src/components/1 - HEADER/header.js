@@ -1,9 +1,15 @@
 import './header.css'
 import logo from "../../img/KRO.png"
+import { useState } from 'react'
 
 function Header() {
+
+    const [sidebar, setSidebar] = useState(false)
+
+    const showSiderbar = () => setSidebar(!sidebar)
+
     return (
-        <section className="head">
+        <section className="header">
             <a href='#home'><img src={logo} /></a>
 
             <div className="navButtons">
