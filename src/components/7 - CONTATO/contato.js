@@ -1,6 +1,6 @@
 import './contato.css'
-import { FaRegClock } from "react-icons/fa";
-import { FiMapPin } from "react-icons/fi";
+import { FaWhatsapp, FaRegClock } from "react-icons/fa";
+import { FiMapPin, FiMail, FiPhone } from "react-icons/fi";
 import { GoogleMap, useJsApiLoader, Marker } from '@react-google-maps/api'
 import { useReveal } from "../../hooks/useReveal";
 
@@ -27,22 +27,25 @@ function Contato() {
                     <h3><FiMapPin /> Unidade Betim</h3>
                     <p>Rua Inconfidência, 510 - Sala 202 - Centro, Betim<br></br>
                         MG, 32600-100</p>
+                    <h3 id='whatsapp-p'><FiMail /> Email:</h3>
+                    <a href='mailto:oscarcontabilidade@hotmail.com?subject=Contato via Site %E2%80%93 K.R.O. Consultoria&body=Ol%C3%A1, Estou entrando em contato atrav%C3%A9s do site da K.R.O. Consultoria para tirar algumas d%C3%BAvidas sobre os servi%C3%A7os oferecidos. Fico no aguardo do retorno. Obrigado!' target='_blank'>oscarcontabilidade@hotmail.com</a>
+                    <h3 id='whatsapp-p'><FaWhatsapp /> Whatsapp:</h3>
+                    <a href='https://wa.me/+5531988997860?text=Olá! Gostaria de informações sobre os serviços de contabilidade. Pode me ajudar?' target='_blank'>+55 (31) 98899-7860</a>
 
-                    <h3><FiMapPin /> Unidade Contagem - "Somente Serviços Previdenciários"</h3>
+                    <h3><FiMapPin /> Unidade Contagem</h3>
                     <p>Rua Moassy, 48 - Novo Eldorado, Contagem<br></br>
                         MG, 32341-170</p>
+                    <h3 id='whatsapp-p'><FiMail /> Email:</h3>
+                    <a href='mailto:oscarcontabilidade2009@gmail.com?subject=Contato via Site %E2%80%93 K.R.O. Consultoria&body=Ol%C3%A1, Estou entrando em contato atrav%C3%A9s do site da K.R.O. Consultoria para tirar algumas d%C3%BAvidas sobre os servi%C3%A7os oferecidos. Fico no aguardo do retorno. Obrigado!' target='_blank'>oscarcontabilidade2009@gmail.com</a>
+                    <h3 id='whatsapp-p'><FaWhatsapp /> Whatsapp:</h3>
+                    <a href='https://wa.me/+5531988998144?text=Olá! Gostaria de informações sobre os serviços de contabilidade. Pode me ajudar?' target='_blank'>+55 (31) 98899-8144 (Contagem)</a>
+
                 </div>
                 <div className='informacoes'>
                     <div className='boxinformacoes'>
                         <h3>Informações</h3>
 
-                        <a>Telefone: (31) 3594-1294</a>
-                        <h3 id='whatsapp-p'>Email:</h3>
-                        <a id="espacamentoContato" href='mailto:oscarcontabilidade@hotmail.com?subject=Contato via Site %E2%80%93 K.R.O. Consultoria&body=Ol%C3%A1, Estou entrando em contato atrav%C3%A9s do site da K.R.O. Consultoria para tirar algumas d%C3%BAvidas sobre os servi%C3%A7os oferecidos. Fico no aguardo do retorno. Obrigado!' target='_blank'>Oscarcontabilidade@hotmail.com (Betim)</a>
-                        <a id="espacamentoContato" href='mailto:oscarcontabilidade2009@gmail.com?subject=Contato via Site %E2%80%93 K.R.O. Consultoria&body=Ol%C3%A1, Estou entrando em contato atrav%C3%A9s do site da K.R.O. Consultoria para tirar algumas d%C3%BAvidas sobre os servi%C3%A7os oferecidos. Fico no aguardo do retorno. Obrigado!' target='_blank'>Oscarcontabilidade2009@gmail.com (Contagem)</a>
-                        <h3 id='whatsapp-p'>Whatsapp:</h3>
-                        <a id='espacamentoContato' href='https://wa.me/+5531988997860?text=Olá! Gostaria de informações sobre os serviços de contabilidade. Pode me ajudar?' target='_blank'>+55 (31) 98899-7860 (Betim)</a>
-                        <a id='espacamentoContato' href='https://wa.me/+5531988998144?text=Olá! Gostaria de informações sobre os serviços de contabilidade. Pode me ajudar?' target='_blank'>+55 (31) 98899-8144 (Contagem)</a>
+                        <p><FiPhone /> Telefone: (31) 3594-1294</p>
 
                     </div>
                     <div className='horarioAtendimento'>

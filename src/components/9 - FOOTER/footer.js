@@ -19,7 +19,7 @@ function Footer() {
                         <p>Rua Inconfidência, 510 - Sala 202 - Centro, Betim<br></br>
                             MG, 32600-100<br></br><br></br></p>
 
-                        <h3><FiMapPin /> Unidade Contagem - "Somente Serviços Previdenciários"</h3>
+                        <h3><FiMapPin /> Unidade Contagem</h3>
                         <p>Rua Moassy, 48 - Novo Eldorado, Contagem<br></br>
                             MG, 32341-170<br></br></p>
                 </div>

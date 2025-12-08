@@ -42,10 +42,10 @@ function Header() {
 
         <div className={`navButtons ${menuAberto ? "show" : ""}`}>
           <div className="menu">
-            <a href="#home">HOME</a>
-            <a href='#servicos'>SERVIÇOS</a>
-            <a href="#sobreNos">SOBRE NÓS</a>
-            <a href="#contato">CONTATO</a>
+            <a href="#home" onClick={() => setMenuAberto(false)}>HOME</a>
+            <a href='#servicos' onClick={() => setMenuAberto(false)}>SERVIÇOS</a>
+            <a href="#sobreNos" onClick={() => setMenuAberto(false)}>SOBRE NÓS</a>
+            <a href="#contato" onClick={() => setMenuAberto(false)}>CONTATO</a>
           </div>
         </div>
       </div>
