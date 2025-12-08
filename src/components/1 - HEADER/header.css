@@ -1,5 +1,4 @@
 .header {
-
   position: fixed;
   display: flex;
   justify-content: space-between;
@@ -8,7 +7,6 @@
   background: #2A373F;
   box-shadow: 1px 3px 13px;
   z-index: 1000;
-
 }
 
 .header img {
@@ -19,39 +17,112 @@
 .navButtons a {
   position: relative;
   display: inline-block;
-  background-color: transparent;
   cursor: pointer;
   margin: 12px;
   font-size: 100%;
   color: #fff;
   text-decoration: none;
-
 }
 
 .navButtons a::after {
   content: "";
   position: absolute;
-  left: 0;
+  left: 50%;
   bottom: -3px;
   width: 0%;
   height: 2px;
-  background-color: rgb(255, 255, 255);
-  transition: width 0.5s ease;
+  background-color: #fff;
+  transform: translateX(-50%);
+  transition: width 0.4s ease;
 }
-
 
 .navButtons a:hover::after {
   width: 70%;
 }
 
-.btn_icon {
-  position: fixed;
-  color: white;
-  width: 30px;
-  height: 30px;
-  margin-top: 32px;
-  margin-left: 32px;
+.btn-menu {
+  display: none;
+  background: none;
+  border: none;
   cursor: pointer;
+  padding: 10px;
 }
 
-@media screen and (max-width:768px) {}
+.icone {
+  width: 30px;
+  height: 2px;
+  background-color: #fff;
+  display: block;
+  position: relative;
+  transition: 0.3s ease;
+}
+
+.icone::before,
+.icone::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background-color: #fff;
+  left: 0;
+  transition: 0.3s ease;
+}
+
+.icone::before {
+  top: -8px;
+}
+
+.icone::after {
+  top: 8px;
+}
+
+@media screen and (max-width: 768px) {
+
+  .navResponsive.active .icone {
+    background-color: transparent;
+  }
+
+  .btn-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navButtons {
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: #2A373F;
+    text-align: center;
+    overflow: hidden;
+    visibility: hidden;
+    transition: 0.4s ease;
+  }
+
+  .navButtons.show {
+    height: calc(100vh - 4rem);
+    visibility: visible;
+  }
+
+  .menu a {
+    display: block;
+    padding: 20px;
+    color: #fff;
+  }
+
+  .navResponsive.active .icone {
+    border-top-color: transparent;
+  }
+
+  .navResponsive.active .icone::before {
+    transform: rotate(45deg);
+    top: 0;
+  }
+
+  .navResponsive.active .icone::after {
+    transform: rotate(-45deg);
+    top: 0;
+  }
+}

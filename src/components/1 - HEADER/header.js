@@ -1,24 +1,55 @@
 import './header.css'
 import logo from "../../img/KRO.png"
-import { useState } from 'react'
+import { useState, useRef, useEffect } from "react";
 
 function Header() {
+  const [menuAberto, setMenuAberto] = useState(false);
+  const menuRef = useRef(null);
 
-    const [sidebar, setSidebar] = useState(false)
+  useEffect(() => {
+    function handleClickFora(event) {
+      if (menuRef.current && !menuRef.current.contains(event.target)) {
+        setMenuAberto(false);
+      }
+    }
 
-    const showSiderbar = () => setSidebar(!sidebar)
+    document.addEventListener("click", handleClickFora);
 
-    return (
-        <section className="header">
-            <a href='#home'><img src={logo} /></a>
+    return () => {
+      document.removeEventListener("click", handleClickFora);
+    };
+  }, []);
 
-            <div className="navButtons">
-                <a id='home1' href='#home'>HOME</a>
-                <a id='sobreNos1' href='#sobreNos'>SOBRE NÓS</a>
-                <a id='contato1' href='#contato'>CONTATO</a>
-            </div>
-        </section>
-    );
+  return (
+    <section className="header">
+      <a href="#home">
+        <img src={logo} />
+      </a>
+
+      <div
+        ref={menuRef}
+        className={`navResponsive ${menuAberto ? "active" : ""}`}
+      >
+        <button
+          className="btn-menu"
+          onClick={(e) => {
+            e.stopPropagation(); 
+            setMenuAberto(!menuAberto);
+          }}
+        >
+          <span className="icone"></span>
+        </button>
+
+        <div className={`navButtons ${menuAberto ? "show" : ""}`}>
+          <div className="menu">
+            <a href="#home">HOME</a>
+            <a href="#sobreNos">SOBRE NÓS</a>
+            <a href="#contato">CONTATO</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 }
 
 export default Header;
