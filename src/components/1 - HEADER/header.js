@@ -43,6 +43,7 @@ function Header() {
         <div className={`navButtons ${menuAberto ? "show" : ""}`}>
           <div className="menu">
             <a href="#home">HOME</a>
+            <a href='#servicos'>SERVIÇOS</a>
             <a href="#sobreNos">SOBRE NÓS</a>
             <a href="#contato">CONTATO</a>
           </div>
