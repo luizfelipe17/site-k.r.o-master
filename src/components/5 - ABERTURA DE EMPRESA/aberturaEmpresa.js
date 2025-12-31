@@ -1,5 +1,5 @@
 import './aberturaEmpresa.css'
-import { PiListChecksThin, PiUsersThreeThin, PiSignatureThin, PiMoneyWavyThin, PiEnvelopeSimpleThin, PiPhoneThin, PiCaretDoubleRightDuotone, PiIdentificationCardThin, PiFilesThin, PiFileTextThin, PiHandHeartThin, PiHouseLineThin } from "react-icons/pi";
+import { PiKeyLight, PiListChecksThin, PiUsersThreeThin, PiSignatureThin, PiMoneyWavyThin, PiEnvelopeSimpleThin, PiPhoneThin, PiCaretDoubleRightDuotone, PiIdentificationCardThin, PiFilesThin, PiFileTextThin, PiHandHeartThin, PiHouseLineThin } from "react-icons/pi";
 import { useReveal } from "../../hooks/useReveal";
 import imgAberturaEmpresa from "../../img/imgAberturaEmpresa.jpg"
 import imagemMEI from "../../img/MEI.png"
@@ -93,7 +93,7 @@ function AberturaEmpresa() {
                             <h2>E-mail dos sócios ou titular</h2>
                         </div>
                         <div id="box-efeitos-10" className="boxAberturaEmpresaItens">
-                            <PiEnvelopeSimpleThin size={55} />
+                            <PiKeyLight  size={50} />
                             <h2>Senha GOV</h2>
                         </div>
                     </div>
