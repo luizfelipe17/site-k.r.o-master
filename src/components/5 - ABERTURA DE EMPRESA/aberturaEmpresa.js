@@ -8,20 +8,30 @@ import imagemLTDA from "../../img/LTDA.png"
 
 function AberturaEmpresa() {
 
-    useReveal('#box-efeitos-1', { duration: 1500, distance: "10px", origin: "bottom", reset: false })
     useReveal('#box-efeitos-2', { duration: 1000, distance: "90px", delay: 200, distance: "10px", origin: "bottom", reset: false })
     useReveal('#box-efeitos-3', { duration: 1000, distance: "90px", delay: 400, distance: "10px", origin: "bottom", reset: false })
     useReveal('#box-efeitos-4', { duration: 1000, distance: "90px", delay: 600, distance: "10px", origin: "bottom", reset: false })
     useReveal('#box-efeitos-5', { duration: 1000, distance: "90px", delay: 800, distance: "10px", origin: "bottom", reset: false })
     useReveal('#box-efeitos-6', { duration: 1000, distance: "90px", delay: 900, distance: "10px", origin: "bottom", reset: false })
     useReveal('#box-efeitos-7', { duration: 1000, distance: "90px", delay: 1100, distance: "10px", origin: "bottom", reset: false })
+    useReveal('#box-efeitos-8', { duration: 1000, distance: "90px", delay: 1200, distance: "10px", origin: "bottom", reset: false })
+    useReveal('#box-efeitos-9', { duration: 1000, distance: "90px", delay: 1300, distance: "10px", origin: "bottom", reset: false })
+    useReveal('#box-efeitos-10', { duration: 1000, distance: "90px", delay: 1400, distance: "10px", origin: "bottom", reset: false })
+    useReveal('#box-efeitos-11', { duration: 1000, distance: "90px", delay: 1500, distance: "10px", origin: "bottom", reset: false })
+    useReveal('#box-efeitos-12', { duration: 1000, distance: "90px", delay: 1600, distance: "10px", origin: "bottom", reset: false })
+    useReveal('#box-efeitos-13', { duration: 1000, distance: "90px", delay: 1700, distance: "10px", origin: "bottom", reset: false })
+    useReveal('#box-efeitos-14', { duration: 1000, distance: "90px", delay: 1800, distance: "10px", origin: "bottom", reset: false })
+    useReveal('#box-efeitos-15', { duration: 1000, distance: "90px", delay: 1900, distance: "10px", origin: "bottom", reset: false })
+    useReveal('#box-efeitos-16', { duration: 1000, distance: "90px", delay: 2000, distance: "10px", origin: "bottom", reset: false })
+    useReveal('#box-efeitos-17', { duration: 1000, distance: "90px", delay: 2100, distance: "10px", origin: "bottom", reset: false })
+
 
     return (
         <section id='documentos' className='aberturaEmpresas'>
             <div className='containerAberturaEmpresa'>
-                
+
                 <div className='imagem'>
-                    <img id="box-efeitos-1" src={imgAberturaEmpresa} alt="Documentos Abertura de Empresa" />
+                    <img src={imgAberturaEmpresa} alt="Documentos Abertura de Empresa" />
                 </div>
                 <div className="tituloAberturaEmpresa">
                     <h1>Documentos Necessários para Abertura de Empresa</h1>
@@ -31,19 +41,19 @@ function AberturaEmpresa() {
                 </div>
                 <div className='boxAberturaEmpresas'>
                     <div className='classificacaoEmpresa'>
-                        <div className="boxClassificacaoEmpresa">
+                        <div id="box-efeitos-2" className="boxClassificacaoEmpresa">
                             <img src={imagemMEI} alt="MEI" />
                             <h1>MEI</h1>
                             <h3>(Microempreendedor Individual)</h3>
                             <p>Único Empresário</p>
                         </div>
-                        <div className="boxClassificacaoEmpresa">
+                        <div id="box-efeitos-3" className="boxClassificacaoEmpresa">
                             <img src={imagemSLU} alt="SLU" />
                             <h1>SLU</h1>
                             <h3>(Sociedade Limitada Unipessoal)</h3>
                             <p>Único Empresário</p>
                         </div>
-                        <div className="boxClassificacaoEmpresa">
+                        <div id="box-efeitos-4" className="boxClassificacaoEmpresa">
                             <img src={imagemLTDA} alt="LTDA" />
                             <h1>LTDA</h1>
                             <h3>(Limitada)</h3>
@@ -57,15 +67,15 @@ function AberturaEmpresa() {
                 </div>
                 <div className='linha'>
                     <div className='primeiraColuna'>
-                        <div id="box-efeitos-2" className="boxAberturaEmpresaItens">
+                        <div id="box-efeitos-5" className="boxAberturaEmpresaItens">
                             <PiIdentificationCardThin size={58} />
                             <h2>RG, CPF, CNH ou outro compatível</h2>
                         </div>
-                        <div id="box-efeitos-3" className="boxAberturaEmpresaItens">
+                        <div id="box-efeitos-6" className="boxAberturaEmpresaItens">
                             <PiHouseLineThin size={55} />
                             <h2>Comprovante de Endereço Residencial</h2>
                         </div>
-                        <div id="box-efeitos-5" className="boxAberturaEmpresaItens">
+                        <div id="box-efeitos-7" className="boxAberturaEmpresaItens">
                             <PiHandHeartThin size={65} />
                             <div className=''>
                                 <h2>Certidão de Casamento dos sócios ou titular</h2>
@@ -74,11 +84,11 @@ function AberturaEmpresa() {
                         </div>
                     </div>
                     <div className='segundaColuna'>
-                        <div id="box-efeitos-4" className="boxAberturaEmpresaItens">
+                        <div id="box-efeitos-8" className="boxAberturaEmpresaItens">
                             <PiPhoneThin size={50} />
                             <h2>Telefone dos sócios ou titular</h2>
                         </div>
-                        <div id="box-efeitos-4" className="boxAberturaEmpresaItens">
+                        <div id="box-efeitos-9" className="boxAberturaEmpresaItens">
                             <PiEnvelopeSimpleThin size={55} />
                             <h2>E-mail dos sócios ou titular</h2>
                         </div>
@@ -90,37 +100,37 @@ function AberturaEmpresa() {
                     </div>
                     <div className='linha'>
                         <div className='primeiraColuna'>
-                            <div id="box-efeitos-7" className="boxAberturaEmpresaItens">
+                            <div id="box-efeitos-10" className="boxAberturaEmpresaItens">
                                 <PiFilesThin size={70} />
                                 <h2>IPTU ou Inscrição Municipal</h2>
                             </div>
-                            <div id="box-efeitos-6" className="boxAberturaEmpresaItens">
+                            <div id="box-efeitos-11" className="boxAberturaEmpresaItens">
                                 <PiFileTextThin size={65} />
                                 <h2>Razão social da Empresa</h2>
                             </div>
-                            <div id="box-efeitos-3" className="boxAberturaEmpresaItens">
+                            <div id="box-efeitos-12" className="boxAberturaEmpresaItens">
                                 <PiSignatureThin size={60} />
                                 <h2>Nome fantasia da empresa</h2>
                             </div>
-                            <div id="box-efeitos-3" className="boxAberturaEmpresaItens">
+                            <div id="box-efeitos-13" className="boxAberturaEmpresaItens">
                                 <PiListChecksThin size={55} />
                                 <h2>Atividades da empresa</h2>
                             </div>
                         </div>
                         <div className='segundaColuna'>
-                            <div id="box-efeitos-3" className="boxAberturaEmpresaItens">
+                            <div id="box-efeitos-14" className="boxAberturaEmpresaItens">
                                 <PiMoneyWavyThin size={55} />
                                 <h2>Capital social da empresa</h2>
                             </div>
-                            <div id="box-efeitos-3" className="boxAberturaEmpresaItens">
+                            <div id="box-efeitos-15" className="boxAberturaEmpresaItens">
                                 <PiUsersThreeThin size={50} />
                                 <h2>Participação de cada sócio na empresa</h2>
                             </div>
-                            <div id="box-efeitos-3" className="boxAberturaEmpresaItens">
+                            <div id="box-efeitos-16" className="boxAberturaEmpresaItens">
                                 <PiPhoneThin size={50} />
                                 <h2>Telefone de contato da empresa</h2>
                             </div>
-                            <div id="box-efeitos-3" className="boxAberturaEmpresaItens">
+                            <div id="box-efeitos-17" className="boxAberturaEmpresaItens">
                                 <PiEnvelopeSimpleThin size={55} />
                                 <h2>E-mail de contato da empresa</h2>
                             </div>
