@@ -1,9 +1,6 @@
 .containerContato {
   display: flex;
-  margin-top: 10px;
-  margin-bottom: 60px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin: 75px 50px 60px 50px;
   align-items: center;
   justify-content: center;
 }
