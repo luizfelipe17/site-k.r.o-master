@@ -450,3 +450,65 @@
 
 
 }
+
+@media (max-width: 455px) {
+
+  .tituloAberturaEmpresa {
+
+    margin: -230px 0px 0px 0px;
+
+  }
+
+  .aberturaEmpresas img {
+
+    height: 250px;
+
+  }
+
+  .boxClassificacaoEmpresa{
+
+    margin-top: -27px;
+    margin-bottom: 27px;
+
+  }
+
+  .boxClassificacaoEmpresa img {
+
+    width: 200px;
+    height: 133px;
+
+  }
+
+
+}
+
+@media (max-width: 353px) {
+
+  .tituloAberturaEmpresa {
+
+    margin: -240px 0px 0px 0px;
+
+  }
+
+  .aberturaEmpresas img {
+
+    height: 250px;
+
+  }
+
+  .boxClassificacaoEmpresa{
+
+    margin-top: -40px;
+    margin-bottom: 40px;
+
+  }
+
+  .boxClassificacaoEmpresa img {
+
+    width: 200px;
+    height: 133px;
+
+  }
+
+
+}

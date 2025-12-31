@@ -93,7 +93,7 @@ function AberturaEmpresa() {
                             <h2>E-mail dos sócios ou titular</h2>
                         </div>
                         <div id="box-efeitos-10" className="boxAberturaEmpresaItens">
-                            <PiKeyLight  size={50} />
+                            <PiKeyLight size={50} />
                             <h2>Senha GOV</h2>
                         </div>
                     </div>
