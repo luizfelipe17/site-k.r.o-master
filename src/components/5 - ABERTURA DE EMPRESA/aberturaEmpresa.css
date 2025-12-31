@@ -3,7 +3,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
 }
 
 #documentos {
@@ -17,51 +16,180 @@
 .containerAberturaEmpresa {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
 }
 
-.aberturaEmpresas h1 {
-  margin: 20px 50px 100px 50px;
+.tituloAberturaEmpresa {
+  position: relative;
+  z-index: 2;
+  color: #fff;
   text-align: center;
+  margin: -320px 0px 90px 0px;
+
+}
+
+.tituloAberturaEmpresa h1 {
+  padding: 0% 15% 0% 15%;
   font-size: 2.5rem;
+  font-weight: 600;
 }
 
-.boxAberturaEmpresaItens h3{
-  padding: 10px;
+.tituloAberturaEmpresa p {
+  margin-top: 12px;
+  font-size: 1.1rem;
+  opacity: 0.9;
 }
 
-.primeiraLinha {
+.linha {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
 }
+
 
 .segundaLinha {
 
   display: flex;
+  flex-direction: row;
+}
+
+.classificacaoEmpresa {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  gap: 30px;
+  margin: 50px 0px 50px 0px;
+
+}
+
+.primeiraColuna {
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+}
+
+.segundaColuna {
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+}
+
+.boxClassificacaoEmpresa h1 {
+
+  padding: 0px 10px 0px 10px;
+
+}
+
+.boxClassificacaoEmpresa h3 {
+
+  padding: 10px 10px 30px 10px;
+
+}
+
+.boxClassificacaoEmpresa p {
+
+  padding: 10px 10px 20px 10px;
+
+}
+
+.boxClassificacaoEmpresa {
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.12);
+  width: 320px;
+  height: 280px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #e6e6e6;
+  border-radius: 15px;
+  transition: transform 0.4s ease, filter 0.4s ease;
+
+}
+
+.boxAberturaEmpresaItens h3 {
+  padding: 10px;
+}
+
+.boxAberturaEmpresaItens svg {
+  padding: 0px 20px 0px 20px;
+  align-items: start;
 }
 
 .boxAberturaEmpresaItens {
 
   display: flex;
   background-color: #ffffff;
-  width: 300px;
+  width: 70vh;
   height: 90px;
-  padding-left: 20px;
+  padding: 10px;
   justify-content: start;
   align-items: center;
-  text-align: center;
+  text-align: start;
   border: 1px solid #e6e6e6;
+  border-radius: 8px;
   transition: transform 0.4s ease, filter 0.4s ease;
+  border-bottom: 2px solid #2A373F;
+  border-radius: 6px;
+}
+
+.boxAberturaEmpresaTitulo {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 70px 0px 50px 0px;
+
+}
+
+.imagem {
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .aberturaEmpresas img {
 
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   border-radius: 20px 20px 0 0;
-  width: 966px;
-  height: 323px;
-  transition: filter 0.4s ease;
+  width: 80%;
+  height: 440px;
+  filter: brightness(40%);
 
+}
+
+.containerObservacao {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.servico-observacao {
+  width: 60%;
+  margin: 35px 0px 0px 0px;
+  padding: 18px;
+  text-align: start;
+  background-color: #f8f9fa;
+  border-left: 4px solid #2A373F;
+  border-radius: 6px;
 }
 
 .boxAberturaEmpresaItens:hover {
@@ -69,20 +197,189 @@
   filter: brightness(96%);
 }
 
-.containerAberturaEmpresa img:hover {
-  filter: brightness(80%);
+.servico-observacao svg {
+  margin-right: 12px;
+  min-width: 16px;
+  color: #2A373F;
+  margin-top: 3px;
 }
 
-@media (max-width: 1025px) {
+.servico-observacao li {
+
+  list-style-type: none;
+
+}
+
+.servico-observacao a {
+
+  text-decoration: none;
+
+}
+
+.boxClassificacaoEmpresa img {
+
+  width: 200px;
+  height: 133px;
+
+}
+
+@media (max-width: 1400px) {
+
+  .imagem {
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .boxClassificacaoEmpresa {
+
+    width: 27%;
+
+  }
+
+  .tituloAberturaEmpresa {
+
+    margin: -300px 0px 50px 0px;
+
+  }
+
+}
+
+@media (max-width: 1250px) {
+
+  .boxAberturaEmpresaItens {
+
+    width: 60vh;
+  }
+}
+
+@media (max-width: 1100px) {
+
+  .linha {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .primeiraColuna {
+
+    align-items: center;
+
+  }
+
+  .segundaColuna {
+
+    align-items: center;
+
+  }
+
+  .boxAberturaEmpresaItens {
+
+    width: 70%;
+
+  }
+
+  .tituloAberturaEmpresa h1 {
+
+    padding: 0px 20% 0px 20%;
+
+  }
+
+  .tituloAberturaEmpresa p {
+
+    padding: 0px 20% 0px 20%;
+
+  }
+
+  .classificacaoEmpresa {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+  }
+
+  .boxClassificacaoEmpresa {
+
+    width: 422px;
+    height: 320px;
+    margin: 0px;
+
+  }
+
+}
+
+@media (max-width: 1060px) {
+
+  .tituloAberturaEmpresa {
+
+    margin: -320px 0px 50px 0px;
+
+  }
+}
+
+@media (max-width: 783px) {
+
+  .tituloAberturaEmpresa {
+
+    margin: -360px 0px 50px 0px;
+
+  }
+}
+
+@media (max-width: 700px) {
+
+  .imagem {
+    margin: 0px;
+    padding: 0px;
+  }
 
   .boxAberturaEmpresas {
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 
   }
 
-  .primeiraLinha {
+  .classificacaoEmpresa {
+
+    gap: 0px;
+
+  }
+
+  .boxClassificacaoEmpresa {
+
+    margin: 0px;
+    width: 87.5%;
+    height: 350px;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.12);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: px solid #e6e6e6;
+    border-radius: 0px;
+
+  }
+
+  .tituloAberturaEmpresa {
+    margin: -182px 0px 0px 0px;
+  }
+
+  .tituloAberturaEmpresa h1 {
+
+    font-size: 180%;
+    padding: 0px 20% 0px 20%;
+
+  }
+
+  .tituloAberturaEmpresa p {
+
+    font-size: 100%;
+    padding: 0px 20% 0px 20%;
+
+  }
+
+  .linha {
     display: flex;
     flex-direction: column;
   }
@@ -95,36 +392,58 @@
 
   .aberturaEmpresas img {
 
-  width: 644px;
-  height: 260px;
+    width: 70%;
+    height: 250px;
+  }
+
+  .boxClassificacaoEmpresa img {
+
+    padding-top: 30px;
+    width: 200px;
+    height: 133px;
+
+  }
+
+  .boxClassificacaoEmpresa p {
+
+    padding: 70px 10px 20px 10px;
+
   }
 
 }
 
-@media (max-width: 700px) {
+@media (max-width: 568px) {
 
-    .boxAberturaEmpresas {
+  .tituloAberturaEmpresa {
+    margin: -211px 0px 0px 0px;
+  }
 
-    display: flex;
-    flex-direction: column;
+  .boxClassificacaoEmpresa img {
+
+    width: 200px;
+    height: 133px;
 
   }
 
-    .primeiraLinha {
-    display: flex;
-    flex-direction: column;
+
+}
+
+@media (max-width: 529px) {
+
+  .tituloAberturaEmpresa {
+    margin: -290px 0px 0px 0px;
   }
 
-  .segundaLinha {
-
-    display: flex;
-    flex-direction: column;
+  .aberturaEmpresas img {
+    height: 350px;
   }
 
-    .aberturaEmpresas img {
+  .boxClassificacaoEmpresa img {
 
-  width: 322px;
-  height: 150px;
+    width: 200px;
+    height: 133px;
+
   }
+
 
 }

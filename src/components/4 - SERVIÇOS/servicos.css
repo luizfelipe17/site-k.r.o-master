@@ -129,15 +129,6 @@
   box-shadow: 0 4px 12px rgba(0, 102, 204, 0.3);
 }
 
-.servico-observacao {
-  margin-top: 25px;
-  padding: 18px;
-  text-align: start;
-  background-color: #f8f9fa;
-  border-left: 4px solid #2A373F;
-  border-radius: 6px;
-}
-
 .servico-observacao p {
   margin: 0;
   font-size: 0.95rem;
@@ -241,7 +232,7 @@
   .servico-texto ul {
 
     margin-left: 50px;
-
+    
   }
 
 }

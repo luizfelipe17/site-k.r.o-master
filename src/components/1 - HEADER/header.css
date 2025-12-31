@@ -53,7 +53,7 @@
   background-color: #fff;
   display: block;
   position: relative;
-  transition: 0.3s ease;
+  transition: 0.1s ease;
 }
 
 .icone::before,

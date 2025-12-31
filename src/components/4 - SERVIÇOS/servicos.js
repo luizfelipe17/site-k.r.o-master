@@ -73,7 +73,7 @@ function Servicos() {
                         <ul>
                             <li><PiCaretDoubleRightDuotone /> DIRPF</li>
                             <li><PiCaretDoubleRightDuotone /> GCAP</li>
-                            <li><PiCaretDoubleRightDuotone /> CARNÊ LEÂO</li>
+                            <li><PiCaretDoubleRightDuotone /> CARNÊ LEÃO</li>
                             <li><PiCaretDoubleRightDuotone /> MENSALÃO</li>
                             <li><PiCaretDoubleRightDuotone /> MALHA FISCAL</li>
                             <li><PiCaretDoubleRightDuotone /> DITR</li>
@@ -106,9 +106,6 @@ function Servicos() {
                             <li><PiCaretDoubleRightDuotone /> Planejamento Previdenciário</li>
                             <li><PiCaretDoubleRightDuotone /> Revisão / Recurso Administrativo</li>
                         </ul>
-                        <div className="servico-observacao">
-                            <p>Prestação de serviços previdenciários, com prioridade de atendimento no endereço de Contagem.</p>
-                        </div>
                     </div>
                     {!isMobile && (
                         <div id = "servico-imagem-efeito-direita" className="servico-imagem">
