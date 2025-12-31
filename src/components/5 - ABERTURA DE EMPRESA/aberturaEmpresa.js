@@ -11,20 +11,20 @@ function AberturaEmpresa() {
     useReveal('#box-efeitos-2', { duration: 1000, distance: "90px", delay: 200, distance: "10px", origin: "bottom", reset: false })
     useReveal('#box-efeitos-3', { duration: 1000, distance: "90px", delay: 400, distance: "10px", origin: "bottom", reset: false })
     useReveal('#box-efeitos-4', { duration: 1000, distance: "90px", delay: 600, distance: "10px", origin: "bottom", reset: false })
-    useReveal('#box-efeitos-5', { duration: 1000, distance: "90px", delay: 800, distance: "10px", origin: "bottom", reset: false })
-    useReveal('#box-efeitos-6', { duration: 1000, distance: "90px", delay: 900, distance: "10px", origin: "bottom", reset: false })
-    useReveal('#box-efeitos-7', { duration: 1000, distance: "90px", delay: 1100, distance: "10px", origin: "bottom", reset: false })
-    useReveal('#box-efeitos-8', { duration: 1000, distance: "90px", delay: 1200, distance: "10px", origin: "bottom", reset: false })
-    useReveal('#box-efeitos-9', { duration: 1000, distance: "90px", delay: 1300, distance: "10px", origin: "bottom", reset: false })
-    useReveal('#box-efeitos-10', { duration: 1000, distance: "90px", delay: 1400, distance: "10px", origin: "bottom", reset: false })
-    useReveal('#box-efeitos-11', { duration: 1000, distance: "90px", delay: 1500, distance: "10px", origin: "bottom", reset: false })
-    useReveal('#box-efeitos-12', { duration: 1000, distance: "90px", delay: 1600, distance: "10px", origin: "bottom", reset: false })
-    useReveal('#box-efeitos-13', { duration: 1000, distance: "90px", delay: 1700, distance: "10px", origin: "bottom", reset: false })
-    useReveal('#box-efeitos-14', { duration: 1000, distance: "90px", delay: 1800, distance: "10px", origin: "bottom", reset: false })
-    useReveal('#box-efeitos-15', { duration: 1000, distance: "90px", delay: 1900, distance: "10px", origin: "bottom", reset: false })
-    useReveal('#box-efeitos-16', { duration: 1000, distance: "90px", delay: 2000, distance: "10px", origin: "bottom", reset: false })
-    useReveal('#box-efeitos-17', { duration: 1000, distance: "90px", delay: 2100, distance: "10px", origin: "bottom", reset: false })
-
+    useReveal('#box-efeitos-5', { duration: 1000, distance: "90px", delay: 200, distance: "10px", origin: "bottom", reset: false })
+    useReveal('#box-efeitos-6', { duration: 500, distance: "90px", delay: 220, distance: "10px", origin: "bottom", reset: false })
+    useReveal('#box-efeitos-7', { duration: 500, distance: "90px", delay: 230, distance: "10px", origin: "bottom", reset: false })
+    useReveal('#box-efeitos-8', { duration: 500, distance: "90px", delay: 240, distance: "10px", origin: "bottom", reset: false })
+    useReveal('#box-efeitos-9', { duration: 500, distance: "90px", delay: 250, distance: "10px", origin: "bottom", reset: false })
+    useReveal('#box-efeitos-10', { duration: 500, distance: "90px", delay: 260, distance: "10px", origin: "bottom", reset: false })
+    useReveal('#box-efeitos-11', { duration: 500, distance: "90px", delay: 200, distance: "10px", origin: "bottom", reset: false })
+    useReveal('#box-efeitos-12', { duration: 500, distance: "90px", delay: 210, distance: "10px", origin: "bottom", reset: false })
+    useReveal('#box-efeitos-13', { duration: 500, distance: "90px", delay: 220, distance: "10px", origin: "bottom", reset: false })
+    useReveal('#box-efeitos-14', { duration: 500, distance: "90px", delay: 230, distance: "10px", origin: "bottom", reset: false })
+    useReveal('#box-efeitos-15', { duration: 500, distance: "90px", delay: 240, distance: "10px", origin: "bottom", reset: false })
+    useReveal('#box-efeitos-16', { duration: 500, distance: "90px", delay: 250, distance: "10px", origin: "bottom", reset: false })
+    useReveal('#box-efeitos-17', { duration: 500, distance: "90px", delay: 260, distance: "10px", origin: "bottom", reset: false })
+    useReveal('#box-efeitos-18', { duration: 500, distance: "90px", delay: 270, distance: "10px", origin: "bottom", reset: false })
 
     return (
         <section id='documentos' className='aberturaEmpresas'>
@@ -92,6 +92,10 @@ function AberturaEmpresa() {
                             <PiEnvelopeSimpleThin size={55} />
                             <h2>E-mail dos sócios ou titular</h2>
                         </div>
+                        <div id="box-efeitos-10" className="boxAberturaEmpresaItens">
+                            <PiEnvelopeSimpleThin size={55} />
+                            <h2>Senha GOV</h2>
+                        </div>
                     </div>
                 </div>
                 <div className='containerDocumentos'>
@@ -100,37 +104,37 @@ function AberturaEmpresa() {
                     </div>
                     <div className='linha'>
                         <div className='primeiraColuna'>
-                            <div id="box-efeitos-10" className="boxAberturaEmpresaItens">
+                            <div id="box-efeitos-11" className="boxAberturaEmpresaItens">
                                 <PiFilesThin size={70} />
                                 <h2>IPTU ou Inscrição Municipal</h2>
                             </div>
-                            <div id="box-efeitos-11" className="boxAberturaEmpresaItens">
+                            <div id="box-efeitos-12" className="boxAberturaEmpresaItens">
                                 <PiFileTextThin size={65} />
                                 <h2>Razão social da Empresa</h2>
                             </div>
-                            <div id="box-efeitos-12" className="boxAberturaEmpresaItens">
+                            <div id="box-efeitos-13" className="boxAberturaEmpresaItens">
                                 <PiSignatureThin size={60} />
                                 <h2>Nome fantasia da empresa</h2>
                             </div>
-                            <div id="box-efeitos-13" className="boxAberturaEmpresaItens">
+                            <div id="box-efeitos-14" className="boxAberturaEmpresaItens">
                                 <PiListChecksThin size={55} />
                                 <h2>Atividades da empresa</h2>
                             </div>
                         </div>
                         <div className='segundaColuna'>
-                            <div id="box-efeitos-14" className="boxAberturaEmpresaItens">
+                            <div id="box-efeitos-15" className="boxAberturaEmpresaItens">
                                 <PiMoneyWavyThin size={55} />
                                 <h2>Capital social da empresa</h2>
                             </div>
-                            <div id="box-efeitos-15" className="boxAberturaEmpresaItens">
+                            <div id="box-efeitos-16" className="boxAberturaEmpresaItens">
                                 <PiUsersThreeThin size={50} />
                                 <h2>Participação de cada sócio na empresa</h2>
                             </div>
-                            <div id="box-efeitos-16" className="boxAberturaEmpresaItens">
+                            <div id="box-efeitos-17" className="boxAberturaEmpresaItens">
                                 <PiPhoneThin size={50} />
                                 <h2>Telefone de contato da empresa</h2>
                             </div>
-                            <div id="box-efeitos-17" className="boxAberturaEmpresaItens">
+                            <div id="box-efeitos-18" className="boxAberturaEmpresaItens">
                                 <PiEnvelopeSimpleThin size={55} />
                                 <h2>E-mail de contato da empresa</h2>
                             </div>
