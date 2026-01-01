@@ -62,7 +62,7 @@
   align-items: center;
   width: 80%;
   gap: 30px;
-  margin: 50px 0px 50px 0px;
+  margin: 50px 0px 0px 0px;
 
 }
 
@@ -141,7 +141,6 @@
   border-radius: 8px;
   transition: transform 0.4s ease, filter 0.4s ease;
   border-bottom: 2px solid #2A373F;
-  border-radius: 6px;
 }
 
 .boxAberturaEmpresaTitulo {
@@ -161,7 +160,7 @@
   text-align: center;
 }
 
-.aberturaEmpresas img {
+.imagem img {
 
   position: relative;
   align-items: center;
@@ -218,6 +217,7 @@
 
 .boxClassificacaoEmpresa img {
 
+  filter: brightness(40%);
   width: 200px;
   height: 133px;
 
@@ -434,7 +434,7 @@
 @media (max-width: 529px) {
 
   .tituloAberturaEmpresa {
-    margin: -230px 0px 0px 0px;
+    margin: -210px 0px 0px 0px;
   }
 
   .aberturaEmpresas img {
@@ -448,10 +448,47 @@
 
   }
 
+  .boxClassificacaoEmpresa {
+
+    margin: -20px 0px 20px 0px;
+
+  }
+
+  .boxClassificacaoEmpresa {
+
+    height: 300px;
+
+  }
+
+  .boxClassificacaoEmpresa p {
+
+    padding: 30px 0px 10px 0px;
+
+  }
+
+  .boxClassificacaoEmpresa img {
+
+    padding: 0px 0px 0px 0px;
+
+  }
 
 }
 
 @media (max-width: 455px) {
+
+  .tituloAberturaEmpresa h1 {
+
+    font-size: 150%;
+    padding: 0px 20% 0px 20%;
+
+  }
+
+  .tituloAberturaEmpresa p {
+
+    font-size: 80%;
+    padding: 0px 20% 0px 20%;
+
+  }
 
   .tituloAberturaEmpresa {
 
@@ -465,12 +502,6 @@
 
   }
 
-  .boxClassificacaoEmpresa{
-
-    margin-top: -35px;
-    margin-bottom: 35px;
-
-  }
 
   .boxClassificacaoEmpresa img {
 
@@ -486,20 +517,13 @@
 
   .tituloAberturaEmpresa {
 
-    margin: -240px 0px 0px 0px;
+    margin: -230px 0px 0px 0px;
 
   }
 
   .aberturaEmpresas img {
 
     height: 250px;
-
-  }
-
-  .boxClassificacaoEmpresa{
-
-    margin-top: -50px;
-    margin-bottom: 50px;
 
   }
 

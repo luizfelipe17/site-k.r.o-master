@@ -11,7 +11,7 @@ function AberturaEmpresa() {
     useReveal('#box-efeitos-2', { duration: 1000, distance: "90px", delay: 200, distance: "10px", origin: "bottom", reset: false })
     useReveal('#box-efeitos-3', { duration: 1000, distance: "90px", delay: 400, distance: "10px", origin: "bottom", reset: false })
     useReveal('#box-efeitos-4', { duration: 1000, distance: "90px", delay: 600, distance: "10px", origin: "bottom", reset: false })
-    useReveal('#box-efeitos-5', { duration: 1000, distance: "90px", delay: 200, distance: "10px", origin: "bottom", reset: false })
+    useReveal('#box-efeitos-5', { duration: 500, distance: "90px", delay: 200, distance: "10px", origin: "bottom", reset: false })
     useReveal('#box-efeitos-6', { duration: 500, distance: "90px", delay: 220, distance: "10px", origin: "bottom", reset: false })
     useReveal('#box-efeitos-7', { duration: 500, distance: "90px", delay: 230, distance: "10px", origin: "bottom", reset: false })
     useReveal('#box-efeitos-8', { duration: 500, distance: "90px", delay: 240, distance: "10px", origin: "bottom", reset: false })
@@ -58,7 +58,6 @@ function AberturaEmpresa() {
                             <h1>LTDA</h1>
                             <h3>(Limitada)</h3>
                             <p>Dois ou mais sócios</p>
-
                         </div>
                     </div>
                 </div>
