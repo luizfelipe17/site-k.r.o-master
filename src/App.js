@@ -1,13 +1,12 @@
-import Header from "./components/1 - HEADER/header"
-import Home from "./components/2 - HOME/home"
-import Objetivos from "./components/3 - OBJETIVOS/objetivos"
-import Servicos from "./components/4 - SERVIÇOS/servicos"
-import AberturaEmpresa from "./components/5 - ABERTURA DE EMPRESA/aberturaEmpresa"
-import Especialidades from "./components/6 - ESPECIALIDADES/especialidades"
-import Contato from "./components/7 - CONTATO/contato"
-import SobreNos from "./components/8 - SOBRE NOS/sobreNos"
-import Footer from "./components/9 - FOOTER/footer"
-import ButtonWhats from './components/10 - ButtonWhats/buttonWhats';
+import Header from "./components/1 - HEADER/header.js"
+import Home from "./components/2 - HOME/home.js"
+import Objetivos from "./components/3 - OBJETIVOS/objetivos.js"
+import Servicos from "./components/4 - SERVIÇOS/servicos.js"
+import AberturaEmpresa from "./components/5 - ABERTURA DE EMPRESA/aberturaEmpresa.js"
+import Contato from "./components/6 - CONTATO/contato.js"
+import SobreNos from "./components/7 - SOBRE NOS/sobreNos.js"
+import Footer from "./components/8 - FOOTER/footer.js"
+import ButtonWhats from './components/9 - ButtonWhats/buttonWhats.js';
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
       <Objetivos />
       <Servicos />
       <AberturaEmpresa />
-      <Especialidades />
       <Contato />
       <SobreNos />
       <Footer />
