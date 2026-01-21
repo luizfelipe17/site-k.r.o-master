@@ -14,7 +14,7 @@ function Home() {
             backgroundBlendMode: "multiply",
         }}>
             <div id="home" className="home">
-                <img className="logoTelaInicial" src={logo} />
+                <img className="logoTelaInicial" src={logo} alt = "logo da empresa"/>
             </div>
         </section>
     );

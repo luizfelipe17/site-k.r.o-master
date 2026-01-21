@@ -15,17 +15,17 @@ function Objetivos() {
         <section>
             <div className='containerObjetivos'>
                 <div id='missao' className='boxObjetivos'>
-                    <img src={missao} />
+                    <img src={missao} alt = "Imagem Missao"/>
                     <h1>MISSÃO</h1>
                     <p>Oferecer serviços contábeis com excelência e ética, sempre focando em soluções eficazes para as necessidades de cada cliente.</p>
                 </div>
                 <div id='visao' className='boxObjetivos'>
-                    <img src={visao} />
+                    <img src={visao} alt = "Imagem Visao"/>
                     <h1>VISÃO</h1>
                     <p>Nosso propósito é ser uma contabilidade que vai além dos números, que compreende de forma humana, atenta e empática as necessidades reais de cada cliente, oferecendo soluções práticas e personalizadas.</p>
                 </div>
                 <div id='servico' className='boxObjetivos'>
-                    <img src={servico} />
+                    <img src={servico} alt = "Imagem Servico"/>
                     <h1>POR QUE CONTRATAR NOSSOS SERVIÇOS?</h1>
                     <ul>
                         <li>  Equipe especializada e preparada pra te ajudar</li>

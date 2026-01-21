@@ -31,13 +31,13 @@ function Footer() {
                         
                         <p>EMAIL:</p>
                         <div id = 'espacamento' className='email'>
-                            <a href='mailto:oscarcontabilidade@hotmail.com?subject=Contato via Site %E2%80%93 K.R.O. Consultoria&body=Ol%C3%A1, Estou entrando em contato atrav%C3%A9s do site da K.R.O. Consultoria para tirar algumas d%C3%BAvidas sobre os servi%C3%A7os oferecidos. Fico no aguardo do retorno. Obrigado!' target='_blank'>oscarcontabilidade@hotmail.com (Betim)</a><br></br>
-                            <a href='mailto:oscarcontabilidade2009@gmail.com?subject=Contato via Site %E2%80%93 K.R.O. Consultoria&body=Ol%C3%A1, Estou entrando em contato atrav%C3%A9s do site da K.R.O. Consultoria para tirar algumas d%C3%BAvidas sobre os servi%C3%A7os oferecidos. Fico no aguardo do retorno. Obrigado!' target='_blank'>oscarcontabilidade2009@gmail.com (Contagem)</a><br></br>
+                            <a href='mailto:oscarcontabilidade@hotmail.com?subject=Contato via Site %E2%80%93 K.R.O. Consultoria&body=Ol%C3%A1, Estou entrando em contato atrav%C3%A9s do site da K.R.O. Consultoria para tirar algumas d%C3%BAvidas sobre os servi%C3%A7os oferecidos. Fico no aguardo do retorno. Obrigado!' target='_blank' rel='noopener noreferrer'>oscarcontabilidade@hotmail.com (Betim)</a><br></br>
+                            <a href='mailto:oscarcontabilidade2009@gmail.com?subject=Contato via Site %E2%80%93 K.R.O. Consultoria&body=Ol%C3%A1, Estou entrando em contato atrav%C3%A9s do site da K.R.O. Consultoria para tirar algumas d%C3%BAvidas sobre os servi%C3%A7os oferecidos. Fico no aguardo do retorno. Obrigado!' target='_blank' rel='noopener noreferrer'>oscarcontabilidade2009@gmail.com (Contagem)</a><br></br>
                         </div>
                         <p>WHATSAPP:</p>
                         <div  className='whats'>
-                            <a href='https://wa.me/+5531988997860?text=Olá! Gostaria de informações sobre os serviços de contabilidade. Pode me ajudar?' target='_blank'>+55 (31) 98899-7860 (Betim)</a><br></br>
-                            <a href='https://wa.me/+5531988998144?text=Olá! Gostaria de informações sobre os serviços de contabilidade. Pode me ajudar?' target='_blank'>+55 (31) 98899-8144 (Contagem)</a><br></br>
+                            <a href='https://wa.me/+5531988997860?text=Olá! Gostaria de informações sobre os serviços de contabilidade. Pode me ajudar?' target='_blank' rel='noopener noreferrer'>+55 (31) 98899-7860 (Betim)</a><br></br>
+                            <a href='https://wa.me/+5531988998144?text=Olá! Gostaria de informações sobre os serviços de contabilidade. Pode me ajudar?' target='_blank' rel='noopener noreferrer'>+55 (31) 98899-8144 (Contagem)</a><br></br>
                         </div>
                     </div>
 
@@ -46,13 +46,13 @@ function Footer() {
                         <p id = 'espacamento'><FiPhone /> (31) 3594-1294</p>
                         <p>EMAIL:</p>
                         <div id = 'espacamento' className='email'>
-                            <a href='mailto:oscarcontabilidade@hotmail.com?subject=Contato via Site %E2%80%93 K.R.O. Consultoria&body=Ol%C3%A1, Estou entrando em contato atrav%C3%A9s do site da K.R.O. Consultoria para tirar algumas d%C3%BAvidas sobre os servi%C3%A7os oferecidos. Fico no aguardo do retorno. Obrigado!' target='_blank'><FiMail /> Betim</a><br></br>
-                            <a href='mailto:oscarcontabilidade2009@gmail.com?subject=Contato via Site %E2%80%93 K.R.O. Consultoria&body=Ol%C3%A1, Estou entrando em contato atrav%C3%A9s do site da K.R.O. Consultoria para tirar algumas d%C3%BAvidas sobre os servi%C3%A7os oferecidos. Fico no aguardo do retorno. Obrigado!' target='_blank'><FiMail /> Contagem</a><br></br>
+                            <a href='mailto:oscarcontabilidade@hotmail.com?subject=Contato via Site %E2%80%93 K.R.O. Consultoria&body=Ol%C3%A1, Estou entrando em contato atrav%C3%A9s do site da K.R.O. Consultoria para tirar algumas d%C3%BAvidas sobre os servi%C3%A7os oferecidos. Fico no aguardo do retorno. Obrigado!' target='_blank' rel='noopener noreferrer'><FiMail /> Betim</a><br></br>
+                            <a href='mailto:oscarcontabilidade2009@gmail.com?subject=Contato via Site %E2%80%93 K.R.O. Consultoria&body=Ol%C3%A1, Estou entrando em contato atrav%C3%A9s do site da K.R.O. Consultoria para tirar algumas d%C3%BAvidas sobre os servi%C3%A7os oferecidos. Fico no aguardo do retorno. Obrigado!' target='_blank' rel='noopener noreferrer'><FiMail /> Contagem</a><br></br>
                         </div>
                         <p>WHATSAPP:</p>
                         <div id = 'espacamento' className='whats'>
-                            <a href='https://wa.me/+5531988997860?text=Olá! Gostaria de informações sobre os serviços de contabilidade. Pode me ajudar?' target='_blank'><FaWhatsapp /> Betim</a><br></br>
-                            <a href='https://wa.me/+5531988998144?text=Olá! Gostaria de informações sobre os serviços de contabilidade. Pode me ajudar?' target='_blank'><FaWhatsapp /> Contagem</a><br></br>
+                            <a href='https://wa.me/+5531988997860?text=Olá! Gostaria de informações sobre os serviços de contabilidade. Pode me ajudar?' target='_blank' rel='noopener noreferrer'><FaWhatsapp /> Betim</a><br></br>
+                            <a href='https://wa.me/+5531988998144?text=Olá! Gostaria de informações sobre os serviços de contabilidade. Pode me ajudar?' target='_blank' rel='noopener noreferrer'><FaWhatsapp /> Contagem</a><br></br>
                         </div>
                     </div>
                 </div>
@@ -79,10 +79,10 @@ function Footer() {
                 <div id='navegacaoFooter' className='boxFooter'>
                     <h3>NAVEGAÇÃO</h3><br></br>
                     <ul>
-                        <li><a href='#sobreNos'><PiCaretDoubleRightDuotone /> Sobre nós</a></li>
-                        <li><a href='#servicos'><PiCaretDoubleRightDuotone /> Serviços</a></li>
-                        <li><a href='#documentos'><PiCaretDoubleRightDuotone /> Documentos</a></li>
-                        <li><a href='#contato'><PiCaretDoubleRightDuotone /> Contato</a></li>
+                        <li><a href='#sobreNos' rel='alternate'><PiCaretDoubleRightDuotone /> Sobre nós</a></li>
+                        <li><a href='#servicos' rel='alternate'><PiCaretDoubleRightDuotone /> Serviços</a></li>
+                        <li><a href='#documentos' rel='alternate'><PiCaretDoubleRightDuotone /> Documentos</a></li>
+                        <li><a href='#contato' rel='alternate'><PiCaretDoubleRightDuotone /> Contato</a></li>
                     </ul>
                 </div>
 

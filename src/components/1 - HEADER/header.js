@@ -23,7 +23,7 @@ function Header() {
   return (
     <section className="header">
       <a href="#home">
-        <img src={logo} />
+        <img src={logo} alt = "logo da empresa" />
       </a>
 
       <div
