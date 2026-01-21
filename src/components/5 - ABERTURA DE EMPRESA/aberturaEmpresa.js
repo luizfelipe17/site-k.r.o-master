@@ -144,7 +144,7 @@ function AberturaEmpresa() {
                 <div className='containerObservacao'>
                     <div className="servico-observacao">
                         <li><PiCaretDoubleRightDuotone />Todos os documentos podem ser cópias</li>
-                        <li><PiCaretDoubleRightDuotone />Orçamentos para abertura de empresa, favor entrar em contato por via <a href='https://wa.me/+5531988997860?text=Olá! Gostaria de informações sobre os serviços de contabilidade. Pode me ajudar?' target='_blank' style={{ color: 'green' }}>WhatsApp</a></li>
+                        <li><PiCaretDoubleRightDuotone />Orçamentos para abertura de empresa, favor entrar em contato por via <a href='https://wa.me/+5531988997860?text=Olá! Gostaria de informações sobre os serviços de contabilidade. Pode me ajudar?' target='_blank' rel='noopener noreferrer' style={{ color: 'green' }}>WhatsApp</a></li>
                     </div>
                 </div>
             </div>

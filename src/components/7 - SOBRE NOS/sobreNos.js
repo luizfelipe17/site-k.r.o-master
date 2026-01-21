@@ -16,7 +16,7 @@ function SobreNos() {
                     Mais do que cumprir obrigações fiscais, trabalhamos de forma consultiva, buscando eficiência, economia e uma gestão contábil estratégica. Nosso compromisso é garantir segurança, clareza e visão de futuro para que cada cliente tome as melhores decisões para o crescimento de seu negócio.</p>
             </div>
             <div>
-                <img className='imgContador' src={contador} />
+                <img className='imgContador' src={contador} alt = "Imagem Contador"/>
             </div>
         </section>
     );
