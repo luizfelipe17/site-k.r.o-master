@@ -8,9 +8,6 @@ import imagemLTDA from "../../img/LTDA.png"
 
 function AberturaEmpresa() {
 
-    useReveal('#box-efeitos-2', { duration: 500, delay: 50, distance: "10px", origin: "bottom", reset: false })
-    useReveal('#box-efeitos-3', { duration: 1000, delay: 100, distance: "10px", origin: "bottom", reset: false })
-    useReveal('#box-efeitos-4', { duration: 1000, delay: 200, distance: "10px", origin: "bottom", reset: false })
     useReveal('#box-efeitos-5', { duration: 500, delay: 200, distance: "10px", origin: "bottom", reset: false })
     useReveal('#box-efeitos-6', { duration: 500, delay: 220, distance: "10px", origin: "bottom", reset: false })
     useReveal('#box-efeitos-7', { duration: 500, delay: 230, distance: "10px", origin: "bottom", reset: false })

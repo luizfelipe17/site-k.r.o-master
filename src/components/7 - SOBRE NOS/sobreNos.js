@@ -4,8 +4,8 @@ import contador from "../../img/CONTADOR.png"
 
 function SobreNos() {
 
-    useReveal('.sobreNos', {duration: 1500,distance: "10px", origin: 'left'})
-    useReveal('.imgContador', {duration: 1500, distance: "10px", origin: "right"})
+    useReveal('.sobreNos', {duration: 1000,distance: "10px", reset: false, origin: 'bottom'})
+    useReveal('.imgContador', {duration: 1000, distance: "10px", delay:300, reset: false, origin: "bottom"})
 
     return (
         <section id='sobreNos' className='containerSobreNos'>
